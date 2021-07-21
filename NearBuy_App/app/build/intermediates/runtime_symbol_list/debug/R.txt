@@ -1733,6 +1733,7 @@ int drawable ic_mtrl_chip_close_circle 0x7f070074
 int drawable ic_notification 0x7f070075
 int drawable ic_search 0x7f070076
 int drawable kabab_2 0x7f0700ce
+int drawable lucky_winners 0x7f0700d0
 int drawable lunch_offer4 0x7f0700b6
 int drawable massage_offer3 0x7f0700b7
 int drawable material_cursor_drawable 0x7f070077

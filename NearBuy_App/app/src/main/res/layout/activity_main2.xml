@@ -529,6 +529,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
                 android:background="#F0F1F1" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/lucky_winners"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#F0F1F1" />
+
+
 
 
 

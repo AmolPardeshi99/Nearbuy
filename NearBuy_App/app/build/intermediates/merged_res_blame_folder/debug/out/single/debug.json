@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buy_now4.jpg.flat",
-        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\buy_now4.jpg"
-    },
-    {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lunch_offer4.jpg.flat",
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\lunch_offer4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buy_now4.jpg.flat",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\buy_now4.jpg"
     },
     {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_location.png.flat",
@@ -76,12 +76,12 @@
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\food_offer6.jpg"
     },
     {
-        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_kabab_2.jpg.flat",
-        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\kabab_2.jpg"
-    },
-    {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_discountbar.jpg.flat",
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\discountbar.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_kabab_2.jpg.flat",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\kabab_2.jpg"
     },
     {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -148,12 +148,12 @@
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\tb_kmfood12.jpg"
     },
     {
-        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tso_salon4.jpg.flat",
-        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\tso_salon4.jpg"
-    },
-    {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu.png.flat",
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tso_salon4.jpg.flat",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\tso_salon4.jpg"
     },
     {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buy_now3.jpg.flat",
@@ -362,6 +362,10 @@
     {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tb_jawed15.jpg.flat",
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\tb_jawed15.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lucky_winners.jpg.flat",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\lucky_winners.jpg"
     },
     {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_expand.xml.flat",

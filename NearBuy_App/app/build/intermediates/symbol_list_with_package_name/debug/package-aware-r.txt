@@ -1734,6 +1734,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_notification
 drawable ic_search
 drawable kabab_2
+drawable lucky_winners
 drawable lunch_offer4
 drawable massage_offer3
 drawable material_cursor_drawable
