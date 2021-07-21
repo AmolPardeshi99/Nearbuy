@@ -1719,6 +1719,7 @@ int drawable hangout_1 0x7f0700c8
 int drawable hangout_2 0x7f0700c9
 int drawable hangout_3 0x7f0700ca
 int drawable head_offer2 0x7f0700b5
+int drawable home_btn 0x7f0700d1
 int drawable ic_clock_black_24dp 0x7f07006a
 int drawable ic_expand 0x7f07006b
 int drawable ic_keyboard_black_24dp 0x7f07006c
@@ -1770,9 +1771,12 @@ int drawable notification_template_icon_low_bg 0x7f070095
 int drawable notification_tile_bg 0x7f070096
 int drawable notify_panel_notification_icon_bg 0x7f070097
 int drawable party_2 0x7f070098
+int drawable purchase_btn4 0x7f0700d2
 int drawable resto_deal_1 0x7f070099
 int drawable salon_deal 0x7f07009a
+int drawable scan_btn3 0x7f0700d3
 int drawable spa_deal 0x7f07009b
+int drawable stories_btn2 0x7f0700d4
 int drawable tb_barbeque1 0x7f07009c
 int drawable tb_bazzar7 0x7f07009d
 int drawable tb_bbq10 0x7f07009e
@@ -1891,6 +1895,10 @@ int id blocking 0x7f080055
 int id bottom 0x7f080056
 int id bounce 0x7f080057
 int id btnLocation 0x7f080058
+int id btn_home 0x7f0801b9
+int id btn_purchase 0x7f0801ba
+int id btn_scan 0x7f0801bb
+int id btn_stories 0x7f0801bc
 int id buttonPanel 0x7f080059
 int id cache_measures 0x7f08005a
 int id cancel_button 0x7f08005b
@@ -1993,11 +2001,9 @@ int id home 0x7f0800ba
 int id homeAsUp 0x7f0800bb
 int id honorRequest 0x7f0800bc
 int id icon 0x7f0800bd
-int id icon_ 0x7f0801b7
 int id icon_group 0x7f0800be
 int id icon_menu 0x7f0800bf
 int id icon_notification 0x7f0800c1
-int id icon_notification1 0x7f0800c2
 int id icon_search 0x7f0800c3
 int id ifRoom 0x7f0800c4
 int id ignore 0x7f0800c5

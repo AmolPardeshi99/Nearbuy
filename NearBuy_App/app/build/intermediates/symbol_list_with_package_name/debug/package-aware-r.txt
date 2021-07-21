@@ -1720,6 +1720,7 @@ drawable hangout_1
 drawable hangout_2
 drawable hangout_3
 drawable head_offer2
+drawable home_btn
 drawable ic_clock_black_24dp
 drawable ic_expand
 drawable ic_keyboard_black_24dp
@@ -1771,9 +1772,12 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable party_2
+drawable purchase_btn4
 drawable resto_deal_1
 drawable salon_deal
+drawable scan_btn3
 drawable spa_deal
+drawable stories_btn2
 drawable tb_barbeque1
 drawable tb_bazzar7
 drawable tb_bbq10
@@ -1892,6 +1896,10 @@ id blocking
 id bottom
 id bounce
 id btnLocation
+id btn_home
+id btn_purchase
+id btn_scan
+id btn_stories
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1994,11 +2002,9 @@ id home
 id homeAsUp
 id honorRequest
 id icon
-id icon_
 id icon_group
 id icon_menu
 id icon_notification
-id icon_notification1
 id icon_search
 id ifRoom
 id ignore
