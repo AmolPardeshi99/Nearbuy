@@ -1699,10 +1699,13 @@ drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_location_symbol
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_near_buy
+drawable location_1
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1742,8 +1745,11 @@ drawable tooltip_frame_light
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id BtnLocation
 id CTRL
+id EtMobNo
 id FUNCTION
+id IvLocation
 id META
 id NO_DEBUG
 id SHIFT
@@ -2146,6 +2152,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv91
+id tvManually
 id unchecked
 id uniform
 id unlabeled
@@ -2246,6 +2254,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout enter_mobno_screen
+layout location_main
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2664,6 +2674,8 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
+style NameText
+style NameText2
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents

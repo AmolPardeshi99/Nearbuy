@@ -1,4 +1,10 @@
-com/example/nearbuy_app/MainActivity.java
- com.example.nearbuy_app.MainActivity
 com/example/nearbuy_app/BuildConfig.java
  com.example.nearbuy_app.BuildConfig
+com/example/nearbuy_app/SecondActivity.java
+ com.example.nearbuy_app.SecondActivity
+ com.example.nearbuy_app.SecondActivity$1
+com/example/nearbuy_app/ThirdActivity.java
+ com.example.nearbuy_app.ThirdActivity
+com/example/nearbuy_app/MainActivity.java
+ com.example.nearbuy_app.MainActivity
+ com.example.nearbuy_app.MainActivity$1

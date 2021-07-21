@@ -10,38 +10,65 @@
 9        android:targetSdkVersion="30" />
 9-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:5:5-19:19
-12        android:allowBackup="true"
-12-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] /Users/shubhamsmac/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/Theme.NearBuy_App" >
-20-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:11:9-49
-21        <activity android:name="com.example.nearbuy_app.MainActivity" >
-21-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:12:9-18:20
-21-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:12:19-47
-22            <intent-filter>
-22-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:14:17-69
-23-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:16:17-77
-25-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
-29
-30</manifest>
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:5:5-81
+11-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:7:5-65
+13-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:8:5-67
+14-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+15-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:9:5-77
+15-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+16-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:10:5-72
+16-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:10:22-69
+17
+18    <application
+18-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:12:5-34:19
+19        android:allowBackup="true"
+19-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:13:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] /Users/shubhamsmac/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:14:9-43
+23        android:label="@string/app_name"
+23-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:15:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:16:9-54
+25        android:supportsRtl="true"
+25-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:17:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.NearBuy_App" >
+27-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:18:9-49
+28        <activity android:name="com.example.nearbuy_app.ThirdActivity" >
+28-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:20:9-22:20
+28-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:20:19-48
+29        </activity>
+30        <activity android:name="com.example.nearbuy_app.SecondActivity" >
+30-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:23:9-25:20
+30-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:23:19-49
+31        </activity>
+32        <activity android:name="com.example.nearbuy_app.MainActivity" >
+32-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:27:9-33:20
+32-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:27:19-47
+33            <intent-filter>
+33-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:28:13-32:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:29:17-69
+34-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:29:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:31:17-77
+36-->/Users/shubhamsmac/Nearbuy/NearBuy_App/app/src/main/AndroidManifest.xml:31:27-74
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>
