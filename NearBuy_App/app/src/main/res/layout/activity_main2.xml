@@ -9,7 +9,6 @@
     tools:context=".MainActivity2">
 
     //headerbar
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -60,7 +59,6 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     //vertical scrollview screen
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="630sp">
@@ -114,7 +112,10 @@
                 android:layout_height="70dp"
                 android:src="@drawable/discountbar" />
 
-
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#F0F1F1" />
             <ViewFlipper
                 android:id="@+id/flipper"
                 android:layout_width="match_parent"
@@ -353,10 +354,182 @@
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
                 android:background="#F0F1F1" />
-            
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="10dp"
+                android:text="Trending Salon Offers"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="309sp"
+                    android:layout_margin="5dp">
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/tso_salon1" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/tso_salon2" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/tso_salon3" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/tso_salon4" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/tso_salon5" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#F0F1F1" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="310sp">
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/food_offer7" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/food_offer6" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/food_offer1" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/food_offer2" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/food_offer3" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/food_offer4" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/food_offer5" />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#F0F1F1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="10dp"
+                android:text="Popular Hangouts"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="309sp"
+                    android:layout_margin="5dp">
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hangout_1" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/hangout_2" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/hangout_3" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#F0F1F1" />
+
+            <ViewFlipper
+                android:id="@+id/flipperBuyNow2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="7dp"
+                android:layout_marginVertical="5dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#F0F1F1" />
+
 
 
         </LinearLayout>
@@ -370,7 +543,7 @@
         android:background="#E6ECEF">
 
         <ImageView
-            android:id="@+id/icon_menu1"
+            android:id="@+id/icon_"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10sp"
