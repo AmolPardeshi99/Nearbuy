@@ -9,6 +9,7 @@
     tools:context=".MainActivity2">
 
     //headerbar
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -26,9 +27,9 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:id="@+id/tvTopHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/tvTopHeader"
             android:drawableRight="@drawable/ic_expand"
             android:text="New Delhi"
             android:textColor="@color/black"
@@ -58,89 +59,95 @@
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    //DealsBar
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="75sp"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/resto_deal_1" />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/salon_deal" />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/spa_deal" />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/gift_deal" />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/activity_deal" />
-    </LinearLayout>
-
     //vertical scrollview screen
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="557sp">
+        android:layout_height="630sp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5sp"
             android:orientation="vertical">
 
+            //DealsBar
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75sp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/resto_deal_1" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/salon_deal" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/spa_deal" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/gift_deal" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/activity_deal" />
+            </LinearLayout>
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:src="@drawable/discountbar"/>
+                android:src="@drawable/discountbar" />
 
 
             <ViewFlipper
-                android:layout_marginHorizontal="7dp"
-                android:layout_marginVertical="5dp"
                 android:id="@+id/flipper"
                 android:layout_width="match_parent"
-                android:layout_height="200dp" />
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="7dp"
+                android:layout_marginVertical="5dp" />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:background="#F0F1F1"/>
+                android:background="#F0F1F1" />
 
-            //  Tv- Top brands
+            // Tv- Top brands
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                >
+                android:layout_height="wrap_content">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10sp"
                     android:text="Top Brands"
-                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:layout_marginHorizontal="10sp"/>
+                    android:textStyle="bold" />
             </LinearLayout>
             //horizontal scrollview Top Brands
+
             <HorizontalScrollView
                 android:layout_width="match_parent"
+                android:layout_height="60dp"
                 android:layout_marginHorizontal="5sp"
-                android:layout_marginVertical="10sp"
-                android:layout_height="60dp">
+                android:layout_marginVertical="10sp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -227,61 +234,136 @@
                 </LinearLayout>
 
             </HorizontalScrollView>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:background="#F0F1F1"/>
+                android:background="#F0F1F1" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_margin="5dp"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="212sp">
+
                     <ImageView
                         android:layout_width="300dp"
-                        android:layout_height="212dp"
-                        android:scaleType="centerCrop"
+                        android:layout_height="match_parent"
                         android:layout_marginHorizontal="5dp"
-                        android:src="@drawable/use_code1"/>
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/use_code1" />
+
                     <ImageView
                         android:layout_width="300dp"
-                        android:layout_height="212dp"
-                        android:scaleType="centerCrop"
+                        android:layout_height="match_parent"
                         android:layout_marginHorizontal="5dp"
-                        android:src="@drawable/use_code2"/>
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/use_code2" />
+
                     <ImageView
                         android:layout_width="300dp"
-                        android:layout_height="212dp"
-                        android:scaleType="centerCrop"
+                        android:layout_height="match_parent"
                         android:layout_marginHorizontal="5dp"
-                        android:src="@drawable/use_code3"/>
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/use_code3" />
+
                     <ImageView
                         android:layout_width="300dp"
-                        android:layout_height="212dp"
-                        android:scaleType="centerCrop"
+                        android:layout_height="match_parent"
                         android:layout_marginHorizontal="5dp"
-                        android:src="@drawable/use_code4"/>
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/use_code4" />
                 </LinearLayout>
             </HorizontalScrollView>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:background="#F0F1F1"/>
+                android:background="#F0F1F1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="10dp"
+                android:text="Next thing on your mind"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="309sp"
+                    android:layout_margin="5dp">
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hair_offer1" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/head_offer2" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/massage_offer3" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/lunch_offer4" />
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:src="@drawable/barbeque_offer5" />
+                </LinearLayout>
+            </HorizontalScrollView>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:background="#F0F1F1"/>
+                android:background="#F0F1F1" />
 
+            <ViewFlipper
+                android:id="@+id/flipperBuyNow"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10sp"
+                android:layout_marginVertical="5dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#F0F1F1" />
+            
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
 
 
         </LinearLayout>
     </ScrollView>
 
     //footer bar
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -318,4 +400,5 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </LinearLayout>
