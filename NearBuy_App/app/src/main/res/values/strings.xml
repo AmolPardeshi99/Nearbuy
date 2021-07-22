@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">NearBuy_App</string>
+
+
+    <string name="sign_in">Sign in</string>
+    <string name="Refer_A_friend">Refer a friend</string>
+    <string name="Promocode">Promocodes</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Help">Help</string>
+    <string name="verson">9.5.2(198) rate</string>
+    <string name="confg">Config 2.38</string>
+    <string name="ShareAndRate">Share &amp; rate</string>
+    <string name="the_life_Style_App">T H E   L I F E S T Y L E   A P P</string>
+
+    <string name="c">c</string>
+    <string name="Enter_Your_Mobile">Enter your mobile number</string>
+
+    <string name="we_will_never_share">We will never share your  number with anyone ever!</string>
+    <string name="ReferAFriend">Refer a friend</string>
+    <string name="Login">Login</string>
+    <string name="signintoview">Sign in to view your notifications</string>
+    <string name="sharetheapp">Share the app</string>
+    <string name="RateTheApp">Rate the app</string>
+    <string name="LikeUsOnFacebook">Like us on facebook</string>
+    <string name="NearBuyBlog">nearbuy blog</string>
+    <string name="Stories">Stories</string>
+
 </resources>

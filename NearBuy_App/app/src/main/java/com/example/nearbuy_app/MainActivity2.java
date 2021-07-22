@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
 
@@ -25,7 +26,7 @@ public class MainActivity2 extends AppCompatActivity {
         flipper = (ViewFlipper) findViewById(R.id.flipper);
 
         for (int i = 0; i < imagarr.length; i++) {
-            showImage(imagarr[i],flipper);
+            showImage(imagarr[i], flipper);
         }
 
         // setting data in second Flipper
@@ -33,7 +34,7 @@ public class MainActivity2 extends AppCompatActivity {
         flipper2 = (ViewFlipper) findViewById(R.id.flipperBuyNow);
 
         for (int i = 0; i < imagarr2.length; i++) {
-            showImage(imagarr2[i],flipper2);
+            showImage(imagarr2[i], flipper2);
         }
 
         //setting data for third flipper
@@ -41,7 +42,7 @@ public class MainActivity2 extends AppCompatActivity {
         flipper3 = (ViewFlipper) findViewById(R.id.flipperBuyNow2);
 
         for (int i = 0; i < imagarr3.length; i++) {
-            showImage(imagarr3[i],flipper3);
+            showImage(imagarr3[i], flipper3);
         }
 
         //setting data for Promocode flipper-4
@@ -49,9 +50,8 @@ public class MainActivity2 extends AppCompatActivity {
         flipper4 = (ViewFlipper) findViewById(R.id.flipperPromo);
 
         for (int i = 0; i < imagarr4.length; i++) {
-            showImage(imagarr4[i],flipper4);
+            showImage(imagarr4[i], flipper4);
         }
-
 
 
         // By clinking on expand list of city we go on city page
@@ -63,8 +63,51 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        //Intent for stories button
+        ImageView mIvStoriesBtn = (ImageView) findViewById(R.id.btn_stories);
+        mIvStoriesBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, StoriesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // Intent for Restaurant Deal
+        ImageView DealResto = (ImageView) findViewById(R.id.deal_resto);
+        DealResto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, ResturantActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        // Intent on linear layout
+        LinearLayout layout  = (LinearLayout) findViewById(R.id.linearResto);
+        layout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, ResturantActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // Intent on Purchase Button
+        ImageView mIvPurchase  = (ImageView) findViewById(R.id.btn_purchase);
+        mIvPurchase.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, PurchaseActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 
+    //Function for setting flipper
     public void showImage(int img, ViewFlipper flipper) {
         ImageView imageView = new ImageView(this);
         imageView.setBackgroundResource(img);

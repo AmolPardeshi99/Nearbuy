@@ -8,6 +8,8 @@
         android:minSdkVersion="16"
         android:targetSdkVersion="30" />
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -18,15 +20,20 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.NearBuy_App" >
-        <activity android:name="com.example.nearbuy_app.MainActivity2" >
+        <activity android:name="com.example.nearbuy_app.PurchaseActivity" />
+        <activity android:name="com.example.nearbuy_app.ResturantActivity" />
+        <activity android:name="com.example.nearbuy_app.StoriesActivity" />
+        <activity android:name="com.example.nearbuy_app.MapScreen" />
+        <activity android:name="com.example.nearbuy_app.EnterMoNoScreen" />
+        <activity android:name="com.example.nearbuy_app.OpeningActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.nearbuy_app.MainActivity" >
-        </activity>
+        <activity android:name="com.example.nearbuy_app.MainActivity2" />
+        <activity android:name="com.example.nearbuy_app.MainActivity" />
     </application>
 
 </manifest>
