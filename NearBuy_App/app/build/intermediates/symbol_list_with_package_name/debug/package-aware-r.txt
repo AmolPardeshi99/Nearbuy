@@ -1772,6 +1772,8 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable party_2
+drawable promo_1
+drawable promo_2
 drawable purchase_btn4
 drawable resto_deal_1
 drawable salon_deal
@@ -1983,6 +1985,7 @@ id flip
 id flipper
 id flipperBuyNow
 id flipperBuyNow2
+id flipperPromo
 id floating
 id forever
 id fragment_container_view_tag

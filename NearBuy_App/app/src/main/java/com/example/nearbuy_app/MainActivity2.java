@@ -13,7 +13,7 @@ import android.widget.ViewFlipper;
 public class MainActivity2 extends AppCompatActivity {
 
 
-    private ViewFlipper flipper3, flipper, flipper2;
+    private ViewFlipper flipper3, flipper, flipper2, flipper4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class MainActivity2 extends AppCompatActivity {
         flipper = (ViewFlipper) findViewById(R.id.flipper);
 
         for (int i = 0; i < imagarr.length; i++) {
-            showImage(imagarr[i]);
+            showImage(imagarr[i],flipper);
         }
 
         // setting data in second Flipper
@@ -33,7 +33,7 @@ public class MainActivity2 extends AppCompatActivity {
         flipper2 = (ViewFlipper) findViewById(R.id.flipperBuyNow);
 
         for (int i = 0; i < imagarr2.length; i++) {
-            showImage2(imagarr2[i]);
+            showImage(imagarr2[i],flipper2);
         }
 
         //setting data for third flipper
@@ -41,8 +41,18 @@ public class MainActivity2 extends AppCompatActivity {
         flipper3 = (ViewFlipper) findViewById(R.id.flipperBuyNow2);
 
         for (int i = 0; i < imagarr3.length; i++) {
-            showImage3(imagarr3[i]);
+            showImage(imagarr3[i],flipper3);
         }
+
+        //setting data for Promocode flipper-4
+        int imagarr4[] = {R.drawable.promo_1, R.drawable.promo_2};
+        flipper4 = (ViewFlipper) findViewById(R.id.flipperPromo);
+
+        for (int i = 0; i < imagarr4.length; i++) {
+            showImage(imagarr4[i],flipper4);
+        }
+
+
 
         // By clinking on expand list of city we go on city page
         TextView tvCityName = (TextView) findViewById(R.id.tvTopHeader);
@@ -55,8 +65,7 @@ public class MainActivity2 extends AppCompatActivity {
         });
     }
 
-    public void showImage(int img) {
-        // setting for first flipper
+    public void showImage(int img, ViewFlipper flipper) {
         ImageView imageView = new ImageView(this);
         imageView.setBackgroundResource(img);
 
@@ -68,34 +77,5 @@ public class MainActivity2 extends AppCompatActivity {
         flipper.setOutAnimation(this, android.R.anim.slide_out_right);
     }
 
-    public void showImage2(int img2) {
-
-        // setting for second flipper
-        ImageView imageView2 = new ImageView(this);
-        imageView2.setBackgroundResource(img2);
-
-        flipper2.addView(imageView2);
-        flipper2.setFlipInterval(4000);
-        flipper2.setAutoStart(true);
-
-        flipper2.setInAnimation(this, android.R.anim.slide_in_left);
-        flipper2.setOutAnimation(this, android.R.anim.slide_out_right);
-
-    }
-
-    public void showImage3(int img2) {
-
-        // setting for third flipper
-        ImageView imageView2 = new ImageView(this);
-        imageView2.setBackgroundResource(img2);
-
-        flipper3.addView(imageView2);
-        flipper3.setFlipInterval(4000);
-        flipper3.setAutoStart(true);
-
-        flipper3.setInAnimation(this, android.R.anim.slide_in_left);
-        flipper3.setOutAnimation(this, android.R.anim.slide_out_right);
-
-    }
 
 }
