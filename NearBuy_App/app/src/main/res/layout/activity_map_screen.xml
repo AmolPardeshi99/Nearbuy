@@ -38,6 +38,7 @@
             android:paddingStart="55dp"
             android:paddingEnd="55dp"
             android:textStyle="bold"
+            android:textColor="@color/white"
             android:background="#3c9bfa"
             android:textSize="15sp"
             android:text="Turn on location services"
@@ -72,6 +73,7 @@
             android:text="Select city manually"
             android:textColor="@color/black"
             android:textSize="15sp" />
+
 
 
     </RelativeLayout>

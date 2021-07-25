@@ -3,6 +3,8 @@
     package="com.example.nearbuy_app">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +13,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NearBuy_App">
-        <activity android:name=".PurchaseActivity"></activity>
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".CardActivity" />
+        <activity android:name=".LoginStart" />
+        <activity android:name=".WebActivity" />
+        <activity android:name=".ShareAndRateActivity" />
+        <activity android:name=".SalonActivity" />
+        <activity android:name=".ReservationActivity" />
+        <activity android:name=".PromocodesActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".CreditActivity" />
+        <activity android:name=".PurchaseActivity" />
         <activity android:name=".ResturantActivity" />
         <activity android:name=".StoriesActivity" />
         <activity android:name=".MapScreen" />

@@ -13,7 +13,6 @@ import android.widget.ViewFlipper;
 
 public class MainActivity2 extends AppCompatActivity {
 
-
     private ViewFlipper flipper3, flipper, flipper2, flipper4;
 
     @Override
@@ -53,7 +52,6 @@ public class MainActivity2 extends AppCompatActivity {
             showImage(imagarr4[i], flipper4);
         }
 
-
         // By clinking on expand list of city we go on city page
         TextView tvCityName = (TextView) findViewById(R.id.tvTopHeader);
         tvCityName.setOnClickListener(new View.OnClickListener() {
@@ -63,6 +61,7 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         //Intent for stories button
         ImageView mIvStoriesBtn = (ImageView) findViewById(R.id.btn_stories);
         mIvStoriesBtn.setOnClickListener(new View.OnClickListener() {
@@ -72,6 +71,17 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+//        //Intent for scan activity
+//        ImageView mIvScan  = (ImageView) findViewById(R.id.btn_scan);
+//        mIvScan.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity2.this,ScanActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+
 
         // Intent for Restaurant Deal
         ImageView DealResto = (ImageView) findViewById(R.id.deal_resto);
@@ -83,6 +93,15 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
+        // Intent for Restaurant Card
+        ViewFlipper flipper = (ViewFlipper) findViewById(R.id.flipper);
+        flipper.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, ResturantActivity.class);
+                startActivity(intent);
+            }
+        });
 
         // Intent on linear layout
         LinearLayout layout  = (LinearLayout) findViewById(R.id.linearResto);
@@ -104,6 +123,56 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
+        // Intent for Menu button
+        ImageView Menu  = (ImageView) findViewById(R.id.icon_menu);
+        Menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, MenuActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // Intent for notification button
+        ImageView Notification  = (ImageView) findViewById(R.id.icon_notification);
+        Notification.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, NotificationActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // Intent for saloon button
+        ImageView saloon  = (ImageView) findViewById(R.id.deal_saloon);
+        saloon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, SalonActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // Intent for saloon button
+        ImageView mIvSaloon  = (ImageView) findViewById(R.id.IvSaloon);
+        mIvSaloon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, SalonActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // Intent for saloon button
+        ImageView hairOffer  = (ImageView) findViewById(R.id.hair_offer);
+        hairOffer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, SalonActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 
@@ -113,7 +182,7 @@ public class MainActivity2 extends AppCompatActivity {
         imageView.setBackgroundResource(img);
 
         flipper.addView(imageView);
-        flipper.setFlipInterval(4000);
+        flipper.setFlipInterval(3000);
         flipper.setAutoStart(true);
 
         flipper.setInAnimation(this, android.R.anim.slide_in_left);

@@ -11,8 +11,10 @@ import java.util.ArrayList;
 
 public class RestutantAdapter extends RecyclerView.Adapter<ResturantViewHolder> {
     private ArrayList<ResturantModel> arrayList;
-    public RestutantAdapter(ArrayList<ResturantModel>arrayList){
+    private OnClickListner onClickListner2;
+    public RestutantAdapter(ArrayList<ResturantModel>arrayList,OnClickListner onClickListner2){
         this.arrayList=arrayList;
+        this.onClickListner2 = onClickListner2;
     }
     @NonNull
 
@@ -20,7 +22,7 @@ public class RestutantAdapter extends RecyclerView.Adapter<ResturantViewHolder> 
     public ResturantViewHolder onCreateViewHolder(@NonNull  ViewGroup parent, int viewType) {
         View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.item_resturant,parent,false);
 
-        return new ResturantViewHolder(view);
+        return new ResturantViewHolder(view,onClickListner2);
     }
 
     @Override

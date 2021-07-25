@@ -9,6 +9,8 @@
         android:targetSdkVersion="30" />
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -20,6 +22,18 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.NearBuy_App" >
+        <activity android:name="com.example.nearbuy_app.PaymentActivity" />
+        <activity android:name="com.example.nearbuy_app.CardActivity" />
+        <activity android:name="com.example.nearbuy_app.LoginStart" />
+        <activity android:name="com.example.nearbuy_app.WebActivity" />
+        <activity android:name="com.example.nearbuy_app.ShareAndRateActivity" />
+        <activity android:name="com.example.nearbuy_app.SalonActivity" />
+        <activity android:name="com.example.nearbuy_app.ReservationActivity" />
+        <activity android:name="com.example.nearbuy_app.PromocodesActivity" />
+        <activity android:name="com.example.nearbuy_app.ProfileActivity" />
+        <activity android:name="com.example.nearbuy_app.NotificationActivity" />
+        <activity android:name="com.example.nearbuy_app.MenuActivity" />
+        <activity android:name="com.example.nearbuy_app.CreditActivity" />
         <activity android:name="com.example.nearbuy_app.PurchaseActivity" />
         <activity android:name="com.example.nearbuy_app.ResturantActivity" />
         <activity android:name="com.example.nearbuy_app.StoriesActivity" />

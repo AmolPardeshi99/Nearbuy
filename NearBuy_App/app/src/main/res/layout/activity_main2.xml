@@ -85,6 +85,7 @@
                     android:src="@drawable/resto_deal_1" />
 
                 <ImageView
+                    android:id="@+id/deal_saloon"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -251,6 +252,7 @@
                     android:layout_height="212sp">
 
                     <ImageView
+                        android:id="@+id/IvSaloon"
                         android:layout_width="300dp"
                         android:padding="3dp"
                         android:elevation="5dp"
@@ -313,6 +315,7 @@
                     android:layout_margin="5dp">
 
                     <ImageView
+                        android:id="@+id/hair_offer"
                         android:layout_width="220dp"
                         android:layout_height="match_parent"
                         android:layout_marginHorizontal="5dp"

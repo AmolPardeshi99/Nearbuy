@@ -8,7 +8,7 @@ import android.os.Handler;
 public class OpeningActivity extends Activity {
 
     /** Duration of wait **/
-    private final int SPLASH_DISPLAY_LENGTH = 3150;
+    private final int SPLASH_DISPLAY_LENGTH = 2150;
 
     /** Called when the activity is first created. */
     @Override
@@ -22,9 +22,9 @@ public class OpeningActivity extends Activity {
             @Override
             public void run() {
                 /* Create an Intent that will start the Menu-Activity.*/
-                Intent mainIntent = new Intent(OpeningActivity.this, MapScreen.class);
+                Intent mainIntent = new Intent(OpeningActivity.this, LoginStart.class);
                 OpeningActivity.this.startActivity(mainIntent);
-                //  Splash.this.finish();
+                finish();
             }
         }, SPLASH_DISPLAY_LENGTH);
     }
