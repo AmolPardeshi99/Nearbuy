@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nearbuy_app">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,13 +13,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NearBuy_App">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ScanActivity">
+
+        </activity>
+        <activity android:name=".ScannerActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".popularHangoutsActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".CardActivity" />
+        <activity android:name=".LoginStart" />
+        <activity android:name=".WebActivity" />
+        <activity android:name=".ShareAndRateActivity" />
+        <activity android:name=".SalonActivity" />
+        <activity android:name=".ReservationActivity" />
+        <activity android:name=".PromocodesActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".CreditActivity" />
+        <activity android:name=".PurchaseActivity" />
+        <activity android:name=".ResturantActivity" />
+        <activity android:name=".StoriesActivity" />
+        <activity android:name=".MapScreen" />
+        <activity android:name=".EnterMoNoScreen" />
+        <activity android:name=".OpeningActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

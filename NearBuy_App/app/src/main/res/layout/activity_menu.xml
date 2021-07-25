@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="12">
+
+        <LinearLayout
+            style="@style/Linier_Layout"
+            android:background="#FF0000"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textViewitalic"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="@dimen/dp_0"
+                android:text="@string/near_buy">
+
+            </TextView>
+
+            <TextView
+                style="@style/textViewitalic"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/dp_0"
+                android:text="@string/the_life_Style_App"
+                android:textSize="@dimen/dp_10">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/LinierProfile"
+            style="@style/Linier_Layout">
+
+            <TextView
+                style="@style/textView"
+                android:drawableRight="@drawable/ic_arrow_forward"
+                android:text="My profile" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Linier_Layout2"
+            android:background="@color/black" />
+
+
+        <LinearLayout
+            android:id="@+id/Liniercredits"
+            style="@style/Linier_Layout">
+
+            <TextView
+                style="@style/textView"
+                android:layout_gravity="center_vertical"
+                android:drawableRight="@drawable/ic_arrow_forward"
+                android:text="My credits" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Linier_Layout2"
+            android:background="@color/black">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Linierreservation"
+            style="@style/Linier_Layout">
+
+            <TextView
+                style="@style/textView"
+                android:layout_gravity="center_vertical"
+                android:drawableRight="@drawable/ic_arrow_forward"
+                android:text="My reservations" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/LinierShareAndRate"
+            style="@style/Linier_Layout">
+
+            <TextView
+                style="@style/textView"
+                android:layout_gravity="center_vertical"
+                android:drawableRight="@drawable/ic_arrow_forward"
+                android:text="@string/ShareAndRate"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Linier_Layout2"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/LinierPromocodes"
+            style="@style/Linier_Layout">
+
+            <TextView
+                style="@style/textView"
+                android:layout_gravity="center_vertical"
+                android:drawableRight="@drawable/ic_arrow_forward"
+                android:text="@string/Promocode" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Linier_Layout2"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/LinierNotification"
+            style="@style/Linier_Layout">
+
+            <TextView
+                style="@style/textView"
+                android:layout_gravity="center_vertical"
+                android:drawableRight="@drawable/ic_arrow_forward"
+                android:text="@string/Notifications" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Linier_Layout2"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/LinierHelp"
+            style="@style/Linier_Layout">
+
+            <TextView
+                style="@style/textView"
+                android:layout_gravity="center_vertical"
+                android:drawableRight="@drawable/ic_arrow_forward"
+                android:text="@string/Help" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Linier_Layout2"
+            android:background="@color/black" />
+
+
+        <LinearLayout
+            android:id="@+id/LinierUpdate"
+            style="@style/Linier_Layout">
+
+            <TextView
+                style="@style/textView"
+                android:layout_gravity="center_vertical"
+                android:drawableRight="@drawable/ic_arrow_forward"
+                android:text="Update" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Linier_Layout2"
+            android:background="@color/black" />
+
+        <TextView
+            style="@style/textViewitalic"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_20"
+            android:text="@string/verson"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp_10" />
+
+        <TextView
+            style="@style/textViewitalic"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="@string/confg"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp_10" />
+
+        <TextView
+            style="@style/textViewitalic"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_20"
+            android:text="@string/c"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp_10" />
+    </LinearLayout>
+
+</LinearLayout>
