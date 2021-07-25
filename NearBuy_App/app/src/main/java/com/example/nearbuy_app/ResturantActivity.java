@@ -57,4 +57,9 @@ public class ResturantActivity extends AppCompatActivity implements OnClickListn
         Intent intent=new Intent(ResturantActivity.this,PaymentActivity.class);
         startActivity(intent);
     }
+
+    @Override
+    public void onItemClicked3(popularHangoutsModel model, int position) {
+
+    }
 }

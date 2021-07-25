@@ -152,6 +152,15 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        // Intent for spa button
+        ImageView deal_spa  = (ImageView) findViewById(R.id.deal_spa);
+        deal_spa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, SalonActivity.class);
+                startActivity(intent);
+            }
+        });
 
         // Intent for saloon button
         ImageView mIvSaloon  = (ImageView) findViewById(R.id.IvSaloon);
@@ -169,6 +178,16 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this, SalonActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // Intent for Popular Hangout
+        LinearLayout popularHangout = (LinearLayout) findViewById(R.id.LinearPopular);
+        popularHangout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this,popularHangoutsActivity.class);
                 startActivity(intent);
             }
         });
