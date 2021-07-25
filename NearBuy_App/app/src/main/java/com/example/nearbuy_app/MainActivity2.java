@@ -133,6 +133,16 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
+        // Intent for Scan button
+        ImageView Scan  = (ImageView) findViewById(R.id.btn_scan);
+        Scan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, ScanActivity.class);
+                startActivity(intent);
+            }
+        });
+
         // Intent for notification button
         ImageView Notification  = (ImageView) findViewById(R.id.icon_notification);
         Notification.setOnClickListener(new View.OnClickListener() {
