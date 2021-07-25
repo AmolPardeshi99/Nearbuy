@@ -44,12 +44,12 @@
             <TextView
                 style="@style/textView"
                 android:drawableRight="@drawable/ic_arrow_forward"
-                android:text="My profile"></TextView>
+                android:text="My profile" />
         </LinearLayout>
 
         <LinearLayout
             style="@style/Linier_Layout2"
-            android:background="@color/black"></LinearLayout>
+            android:background="@color/black" />
 
 
         <LinearLayout
@@ -60,7 +60,7 @@
                 style="@style/textView"
                 android:layout_gravity="center_vertical"
                 android:drawableRight="@drawable/ic_arrow_forward"
-                android:text="My credits"></TextView>
+                android:text="My credits" />
         </LinearLayout>
 
         <LinearLayout
@@ -77,13 +77,13 @@
                 style="@style/textView"
                 android:layout_gravity="center_vertical"
                 android:drawableRight="@drawable/ic_arrow_forward"
-                android:text="My reservations"></TextView>
+                android:text="My reservations" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="2dp"
-            android:background="@color/black"></LinearLayout>
+            android:background="@color/black" />
 
         <LinearLayout
             android:id="@+id/LinierShareAndRate"
@@ -98,7 +98,7 @@
 
         <LinearLayout
             style="@style/Linier_Layout2"
-            android:background="@color/black"></LinearLayout>
+            android:background="@color/black" />
 
         <LinearLayout
             android:id="@+id/LinierPromocodes"
@@ -108,7 +108,7 @@
                 style="@style/textView"
                 android:layout_gravity="center_vertical"
                 android:drawableRight="@drawable/ic_arrow_forward"
-                android:text="@string/Promocode"></TextView>
+                android:text="@string/Promocode" />
         </LinearLayout>
 
         <LinearLayout
@@ -138,12 +138,12 @@
                 style="@style/textView"
                 android:layout_gravity="center_vertical"
                 android:drawableRight="@drawable/ic_arrow_forward"
-                android:text="@string/Help"></TextView>
+                android:text="@string/Help" />
         </LinearLayout>
 
         <LinearLayout
             style="@style/Linier_Layout2"
-            android:background="@color/black"></LinearLayout>
+            android:background="@color/black" />
 
 
         <LinearLayout

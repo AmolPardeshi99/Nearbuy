@@ -22,6 +22,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.NearBuy_App" >
+        <activity android:name="com.example.nearbuy_app.HelpActivity" />
+        <activity android:name="com.example.nearbuy_app.popularHangoutsActivity" />
         <activity android:name="com.example.nearbuy_app.PaymentActivity" />
         <activity android:name="com.example.nearbuy_app.CardActivity" />
         <activity android:name="com.example.nearbuy_app.LoginStart" />

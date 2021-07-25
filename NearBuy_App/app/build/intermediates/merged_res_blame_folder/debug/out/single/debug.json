@@ -84,6 +84,10 @@
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\line.xml"
     },
     {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ph3.jpeg.flat",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\ph3.jpeg"
+    },
+    {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rt8.jpeg.flat",
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\rt8.jpeg"
     },
@@ -222,6 +226,10 @@
     {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ph5.jpeg.flat",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\ph5.jpeg"
     },
     {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rt6.jpeg.flat",
@@ -492,6 +500,10 @@
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\p1.jpeg"
     },
     {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_help.xml.flat",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gift_deal.jpg.flat",
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\gift_deal.jpg"
     },
@@ -502,6 +514,10 @@
     {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nearbuybar.png.flat",
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\nearbuybar.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ph1.jpeg.flat",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\ph1.jpeg"
     },
     {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_enter_mo_no_screen.xml.flat",
@@ -708,6 +724,10 @@
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\nearbuyandsearch.jpeg"
     },
     {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ph2.jpeg.flat",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\ph2.jpeg"
+    },
+    {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_expand.png.flat",
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_expand.png"
     },
@@ -742,6 +762,10 @@
     {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hangout_3.jpg.flat",
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\hangout_3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ph4.jpeg.flat",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\ph4.jpeg"
     },
     {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_arrow.png.flat",
@@ -780,6 +804,10 @@
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\rt5.jpeg"
     },
     {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ph6.jpeg.flat",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\ph6.jpeg"
+    },
+    {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_opening.xml.flat",
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\layout\\activity_opening.xml"
     },
@@ -810,6 +838,10 @@
     {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_share_and_rate.xml.flat",
         "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\layout\\activity_share_and_rate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_popular_hangouts.xml.flat",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\layout\\activity_popular_hangouts.xml"
     },
     {
         "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img1.png.flat",

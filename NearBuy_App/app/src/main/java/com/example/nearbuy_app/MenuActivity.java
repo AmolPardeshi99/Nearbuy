@@ -15,7 +15,7 @@ public class MenuActivity extends AppCompatActivity {
     private LinearLayout ShareAndRate;
     private LinearLayout Promocodes;
     private LinearLayout Reservation;
-    private LinearLayout Update;
+    private LinearLayout Update,Help;
 
 
     @Override
@@ -75,6 +75,14 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
+        Help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MenuActivity.this,HelpActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void initView() {
@@ -85,5 +93,6 @@ public class MenuActivity extends AppCompatActivity {
         Promocodes=findViewById(R.id.LinierPromocodes);
         Reservation=findViewById(R.id.Linierreservation);
         Update= findViewById(R.id.LinierUpdate);
+        Help= findViewById(R.id.LinierHelp);
     }
 }

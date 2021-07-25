@@ -1808,6 +1808,12 @@ drawable p2
 drawable p3
 drawable party_2
 drawable paytm
+drawable ph1
+drawable ph2
+drawable ph3
+drawable ph4
+drawable ph5
+drawable ph6
 drawable profile
 drawable promo_1
 drawable promo_2
@@ -1887,6 +1893,7 @@ id IvLocation
 id IvResturant
 id IvSaloon
 id IvStories
+id LinearPopular
 id LinearSelectCity
 id LinierHelp
 id LinierNotification
@@ -1988,6 +1995,13 @@ id btn_home
 id btn_purchase
 id btn_scan
 id btn_stories
+id button1
+id button2
+id button3
+id button4
+id button5
+id button6
+id button7
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -2032,6 +2046,7 @@ id cut
 id date_picker_actions
 id deal_resto
 id deal_saloon
+id deal_spa
 id debitcard
 id decelerate
 id decelerateAndComplete
@@ -2226,6 +2241,7 @@ id rectangles
 id recyclerresturant
 id recyclersaloon
 id recycleview
+id resturant
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2313,6 +2329,13 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView1
+id textView2
+id textView3
+id textView4
+id textView5
+id textView6
+id textView7
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2341,6 +2364,7 @@ id triangle
 id tv1
 id tv2
 id tv91
+id tvLogin
 id tvManually
 id tvOr
 id tvPopular
@@ -2437,6 +2461,7 @@ layout abc_tooltip
 layout activity_card
 layout activity_credit
 layout activity_enter_mo_no_screen
+layout activity_help
 layout activity_login_start
 layout activity_main
 layout activity_main2
@@ -2445,6 +2470,7 @@ layout activity_menu
 layout activity_notification
 layout activity_opening
 layout activity_payment
+layout activity_popular_hangouts
 layout activity_profile
 layout activity_promocodes
 layout activity_purchase
@@ -2550,6 +2576,13 @@ string Login
 string NearBuyBlog
 string Notifications
 string Promocode
+string Q1
+string Q2
+string Q3
+string Q4
+string Q5
+string Q6
+string Q7
 string RateTheApp
 string ReferAFriend
 string Refer_A_friend
@@ -2666,6 +2699,13 @@ string sharetheapp
 string sign_in
 string signintoview
 string status_bar_notification_info_overflow
+string text1
+string text2
+string text3
+string text4
+string text5
+string text6
+string text7
 string the_life_Style_App
 string verson
 string we_will_never_share
