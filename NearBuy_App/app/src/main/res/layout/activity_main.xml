@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glHori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_percent="0.3515732"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#EFEEEE"
+        app:layout_constraintBottom_toTopOf="@id/glHori"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLocation"
+        style="@style/captionOnly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:drawableLeft="@drawable/ic_location"
+        android:gravity="center"
+        android:paddingLeft="55dp"
+        android:paddingRight="55dp"
+        android:text="Turn on location services"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/bluerectangle"
+        app:layout_constraintTop_toBottomOf="@id/tvOr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/glHori" />
+
+    <TextView
+        android:id="@+id/tvSelectlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Select Location"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/etCityName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/etCityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toTopOf="@id/tvOr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSelectlocation" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:background="@drawable/whiterectangle"
+            android:backgroundTint="@color/white"
+            android:drawablePadding="10sp"
+            android:drawableLeft="@drawable/ic_search"
+            android:hint="Type city name"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLocation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCityName" />
+
+    <TextView
+        android:id="@+id/tvPopular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular cities"
+        android:layout_margin="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20sp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPopular">
+
+        <LinearLayout
+            android:id="@+id/LinearSelectCity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25sp"
+            android:orientation="vertical" >
+            <TextView
+                style="@style/custometext"
+                android:text="New Delhi"
+                android:layout_marginVertical="10sp"/>
+            <TextView
+                style="@style/custometext"
+                android:text="Gurgaon"
+                android:layout_marginVertical="10sp"/>
+            <TextView
+                style="@style/custometext"
+                android:text="Noida"
+                android:layout_marginVertical="10sp"/>
+            <TextView
+                style="@style/custometext"
+                android:text="Jaipur"
+                android:layout_marginVertical="10sp"/>
+            <TextView
+                style="@style/custometext"
+                android:text="Bengaluru"
+                android:layout_marginVertical="10sp"/>
+            <TextView
+                style="@style/custometext"
+                android:text="Mumbai"
+                android:layout_marginVertical="10sp"/>
+            <TextView
+                style="@style/custometext"
+                android:text="Navi Mumbai"
+                android:layout_marginVertical="10sp"/>
+            <TextView
+                style="@style/custometext"
+                android:text="Kolkata"
+                android:layout_marginVertical="10sp"/>
+            <TextView
+                style="@style/custometext"
+                android:text="Hyderabad"
+                android:layout_marginVertical="10sp"/>
+            <TextView
+                style="@style/custometext"
+                android:text="Chennai"
+                android:layout_marginVertical="10sp"/>
+            <TextView
+                style="@style/custometext"
+                android:text="Chandigarh"
+                android:layout_marginVertical="10sp"/>
+            <TextView
+                style="@style/custometext"
+                android:text="Pune"
+                android:layout_marginVertical="10sp"/>
+            <TextView
+                style="@style/custometext"
+                android:text="Ahmedabad"
+                android:layout_marginVertical="10sp"/>
+            <TextView
+                style="@style/custometext"
+                android:text="Indore"
+                android:layout_marginVertical="10sp"/>
+            <TextView
+                style="@style/custometext"
+                android:text="Goa"
+                android:layout_marginVertical="10sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
