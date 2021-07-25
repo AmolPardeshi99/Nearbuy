@@ -1765,6 +1765,7 @@ drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_location
+drawable ic_location_symbol
 drawable ic_menu
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
@@ -1805,6 +1806,7 @@ drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
 drawable nearbuyandsearch
 drawable nearbuybar
+drawable nearbuyqr
 drawable netbanking
 drawable notification
 drawable notification_action_background
@@ -1834,6 +1836,7 @@ drawable profile
 drawable promo_1
 drawable promo_2
 drawable purchase_btn4
+drawable qrcode
 drawable reservation1
 drawable resto_deal_1
 drawable rt1
@@ -2517,8 +2520,10 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout enter_mobno_screen
 layout item_resturant
 layout item_stories
+layout location_main
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
