@@ -18,9 +18,13 @@ The Team Members are:
 
 A little about the teammates and their contributions.
 I can’t thank Avadhut and Nalinikanth enough, who worked hard for this project to become what it is today. I think the best way to thank them would be to mention their contribution and let their work speak for them.
+
 Nalinikanth was responsible for designing the menu bar functions, relative layouts in subactivity, payment process, stories page. He took care of all recyclerview, things such as making the pages that took user experience to the next level.
+
 Avadhut was responsible for the login page, flash screen, introduction page, and scan function. He also took care of all the little, but important, things such as help section take the user experience to the next level.
+
 On the other hand, I handled the Home Screen, select city screen, I integrated the blog with our app, payment page. I also worked with all three of them to work on the UI part and connecting the screens. I used to merge all our codes at night and was tracking the progress of all of us.
+
 Though this project was not a piece of cake. I loved to work with these amazing guys during this 5 days journey we got lots of learnings and got a broader perspective about the application lifecycle.
 
 
