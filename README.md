@@ -27,6 +27,27 @@ On the other hand, I handled the Home Screen, select city screen, I integrated t
 
 Though this project was not a piece of cake. I loved to work with these amazing guys during this 5 days journey we got lots of learnings and got a broader perspective about the application lifecycle.
 
+![GitHub Cards Preview](https://firebasestorage.googleapis.com/v0/b/ajio-f9ef3.appspot.com/o/Learn%20programming%20language%20(1).png?alt=media&token=d9fd6ceb-53ec-4176-910c-df6c508a0b1b)
+
+## Tech Stack ✨
+- Android Studio
+
+## Used Open Source-Libraries 😎
+- [Glide](https://github.com/bumptech/glide)
+- [Circular Image View](https://github.com/hdodenhof/CircleImageView)
+
+## Built With 🚀
+- [Java](https://www.java.com/en/) - Java has platform independent feature so it is used for android development.
+
+## Instructions to clone this project ✌
+1. Open Android Studio.
+2. Go to File > New > Project From Version Control.
+3. Copy the link of this repositary.
+4. Paste the link in Url Box of Android Studio window and click on "Clone" button.
+
+## Here are the some screenshots of the cloned application
+
+
 
 Ending Notes:
 In our humble attempt to clone the [Nearbuy.com](www.nearbuy.com) App we tried our best to achieve the preciseness with whatever limited knowledge we possess. I hope you liked our efforts.
