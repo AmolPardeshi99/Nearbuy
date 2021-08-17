@@ -1,12 +1,10 @@
 # Nearbuy
 
-## Blog Link 🔗 https://medium.com/@pardeshiamol772/the-journey-of-making-nearbuy-android-app-c3d40d8bed5f
+ Blog Link 🔗 https://medium.com/@pardeshiamol772/the-journey-of-making-nearbuy-android-app-c3d40d8bed5f
 
 ## The Journey of making Nearbuy Android App
 
 Hello there, I am Amol an Aspiring Android Developer learning at Masai School. You might have used the Nearbuy Android App, which is India’s first hyper-local online platform that enables customers and local merchants to discover and engage with each other.
-
-## Technology Used: Java, Android(Recycler View, ScrollView, Webview, Preferences), QR code scan library,
 
 Moving ahead, we team Ninja developed a clone of the App of Nearbuy in just 5 days as a part of our curriculum. This blog is all about our journey and the challenges we faced while building the project.
 
@@ -31,6 +29,8 @@ Though this project was not a piece of cake. I loved to work with these amazing 
 
 ## Tech Stack ✨
 - Android Studio
+- Android(Recycler View, ScrollView, Webview, Preferences, Permissions)
+- QR code scan library,
 
 ## Used Open Source-Libraries 😎
 - [Glide](https://github.com/bumptech/glide)
