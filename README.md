@@ -1,6 +1,10 @@
 # Nearbuy
 
  Blog Link 🔗 https://medium.com/@pardeshiamol772/the-journey-of-making-nearbuy-android-app-c3d40d8bed5f
+ ##
+ ##
+ 
+ ![GitHub Cards Preview](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0I1tyhv2D7hWD9eMKk1S_OIp5yHYzQPsblA&usqp=CAU)
 
 ## The Journey of making Nearbuy Android App
 
@@ -26,6 +30,8 @@ On the other hand, I handled the Home Screen, select city screen, I integrated t
 Though this project was not a piece of cake. I loved to work with these amazing guys during this 5 days journey we got lots of learnings and got a broader perspective about the application lifecycle.
 
 ![GitHub Cards Preview](https://i.ytimg.com/vi/htVcTBYKSeI/maxresdefault.jpg)
+
+
 
 ## Tech Stack ✨
 - Android Studio
