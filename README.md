@@ -27,7 +27,7 @@ On the other hand, I handled the Home Screen, select city screen, I integrated t
 
 Though this project was not a piece of cake. I loved to work with these amazing guys during this 5 days journey we got lots of learnings and got a broader perspective about the application lifecycle.
 
-<!-- ![GitHub Cards Preview](https://firebasestorage.googleapis.com/v0/b/ajio-f9ef3.appspot.com/o/Learn%20programming%20language%20(1).png?alt=media&token=d9fd6ceb-53ec-4176-910c-df6c508a0b1b) -->
+![GitHub Cards Preview](https://miro.medium.com/max/875/1*h1Cqu91a0Xwrmj2dmklX9A.jpeg)
 
 ## Tech Stack ✨
 - Android Studio
