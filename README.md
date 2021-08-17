@@ -4,7 +4,7 @@
  ##
  ##
  
- ![GitHub Cards Preview](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0I1tyhv2D7hWD9eMKk1S_OIp5yHYzQPsblA&usqp=CAU)
+ ![GitHub Cards Preview](https://blog.staah.com/wp-content/uploads/2018/01/nearbuy.com-staah-integration-min.jpg)
 
 ## The Journey of making Nearbuy Android App
 
