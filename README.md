@@ -35,6 +35,7 @@ Though this project was not a piece of cake. I loved to work with these amazing 
 ## Used Open Source-Libraries 😎
 - [Glide](https://github.com/bumptech/glide)
 - [Circular Image View](https://github.com/hdodenhof/CircleImageView)
+- [Code-Scanner](https://github.com/yuriy-budiyev/code-scanner.git)
 
 ## Built With 🚀
 - [Java](https://www.java.com/en/) - Java has platform independent feature so it is used for android development.
