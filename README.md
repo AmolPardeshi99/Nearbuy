@@ -47,7 +47,27 @@ Though this project was not a piece of cake. I loved to work with these amazing 
 4. Paste the link in Url Box of Android Studio window and click on "Clone" button.
 
 ## Here are the some screenshots of the cloned application
+1. Flash Screen and Introductory Screen
+![GitHub Cards Preview](https://miro.medium.com/max/875/1*h1Cqu91a0Xwrmj2dmklX9A.jpeg)
 
+2. Map Permission:
+![GitHub Cards Preview](https://miro.medium.com/max/875/1*JuDxVDEts7RyEA4Ur9iSKA.jpeg)
+
+3. Home Screen
+![GitHub Cards Preview](https://miro.medium.com/max/875/1*Lb5wzvPYR6ifxxitGypucg.jpeg)
+
+4. Menu Screen 
+![GitHub Cards Preview](https://miro.medium.com/max/875/1*WcXVUG4OHI7F7ymX_Exxvw.jpeg)
+![GitHub Cards Preview](https://miro.medium.com/max/875/1*eANdla9_Uuok2hHeAX15yQ.jpeg)
+
+5. Stories Page
+![GitHub Cards Preview](https://miro.medium.com/max/875/1*8xSL2yI2LWmXAObwx7DddQ.jpeg)
+
+6. Merchants Profile
+![GitHub Cards Preview](https://miro.medium.com/max/875/1*SRW-AzcqCIefdXrbAh1Asg.jpeg)
+
+7. Payment Process
+![GitHub Cards Preview](https://miro.medium.com/max/875/1*UQOjuWYOocmB9VPOGpFxoA.jpeg)
 
 
 Ending Notes:
