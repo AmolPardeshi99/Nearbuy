@@ -1,119 +1,119 @@
-com/example/nearbuy_app/HelpActivity.java
- com.example.nearbuy_app.HelpActivity
-com/example/nearbuy_app/PaymentActivity.java
- com.example.nearbuy_app.PaymentActivity
- com.example.nearbuy_app.PaymentActivity$1
- com.example.nearbuy_app.PaymentActivity$2
-com/example/nearbuy_app/StoriesActivity.java
- com.example.nearbuy_app.StoriesActivity
-com/example/nearbuy_app/OnClickListner.java
- com.example.nearbuy_app.OnClickListner
-com/example/nearbuy_app/SalonViewHolder.java
- com.example.nearbuy_app.SalonViewHolder
- com.example.nearbuy_app.SalonViewHolder$1
-com/example/nearbuy_app/CreditActivity.java
- com.example.nearbuy_app.CreditActivity
-com/example/nearbuy_app/SalonActivity.java
- com.example.nearbuy_app.SalonActivity
-com/example/nearbuy_app/popularHangoutsActivity.java
- com.example.nearbuy_app.popularHangoutsActivity
-com/example/nearbuy_app/ResturantActivity.java
- com.example.nearbuy_app.ResturantActivity
-com/example/nearbuy_app/EnterMoNoScreen.java
- com.example.nearbuy_app.EnterMoNoScreen
-com/example/nearbuy_app/SecondActivity.java
- com.example.nearbuy_app.SecondActivity
- com.example.nearbuy_app.SecondActivity$1
-com/example/nearbuy_app/LoginStart.java
- com.example.nearbuy_app.LoginStart
- com.example.nearbuy_app.LoginStart$1
-com/example/nearbuy_app/SalonModel.java
- com.example.nearbuy_app.SalonModel
-com/example/nearbuy_app/MapScreen.java
- com.example.nearbuy_app.MapScreen
- com.example.nearbuy_app.MapScreen$1
- com.example.nearbuy_app.MapScreen$2
-com/example/nearbuy_app/RestutantAdapter.java
- com.example.nearbuy_app.RestutantAdapter
-com/example/nearbuy_app/ScannerActivity.java
- com.example.nearbuy_app.ScannerActivity
- com.example.nearbuy_app.ScannerActivity$1
- com.example.nearbuy_app.ScannerActivity$1$1
-com/example/nearbuy_app/StoriesViewHolder.java
- com.example.nearbuy_app.StoriesViewHolder
-com/example/nearbuy_app/MainActivity2.java
- com.example.nearbuy_app.MainActivity2
- com.example.nearbuy_app.MainActivity2$1
- com.example.nearbuy_app.MainActivity2$10
- com.example.nearbuy_app.MainActivity2$11
- com.example.nearbuy_app.MainActivity2$12
- com.example.nearbuy_app.MainActivity2$13
- com.example.nearbuy_app.MainActivity2$14
- com.example.nearbuy_app.MainActivity2$2
- com.example.nearbuy_app.MainActivity2$3
- com.example.nearbuy_app.MainActivity2$4
- com.example.nearbuy_app.MainActivity2$5
- com.example.nearbuy_app.MainActivity2$6
- com.example.nearbuy_app.MainActivity2$7
- com.example.nearbuy_app.MainActivity2$8
- com.example.nearbuy_app.MainActivity2$9
-com/example/nearbuy_app/CardActivity.java
- com.example.nearbuy_app.CardActivity
- com.example.nearbuy_app.CardActivity$1
-com/example/nearbuy_app/popularHangoutsModel.java
- com.example.nearbuy_app.popularHangoutsModel
-com/example/nearbuy_app/popularHangoutsViewHolder.java
- com.example.nearbuy_app.popularHangoutsViewHolder
- com.example.nearbuy_app.popularHangoutsViewHolder$1
+Model/StoriesModel.java
+ Model.StoriesModel
 com/example/nearbuy_app/BuildConfig.java
  com.example.nearbuy_app.BuildConfig
-com/example/nearbuy_app/ShareAndRateActivity.java
- com.example.nearbuy_app.ShareAndRateActivity
- com.example.nearbuy_app.ShareAndRateActivity$1
- com.example.nearbuy_app.ShareAndRateActivity$2
- com.example.nearbuy_app.ShareAndRateActivity$3
- com.example.nearbuy_app.ShareAndRateActivity$4
-com/example/nearbuy_app/ResturantViewHolder.java
- com.example.nearbuy_app.ResturantViewHolder
- com.example.nearbuy_app.ResturantViewHolder$1
-com/example/nearbuy_app/PromocodesActivity.java
- com.example.nearbuy_app.PromocodesActivity
-com/example/nearbuy_app/popularHangoutsAdapter.java
- com.example.nearbuy_app.popularHangoutsAdapter
-com/example/nearbuy_app/OpeningActivity.java
- com.example.nearbuy_app.OpeningActivity
- com.example.nearbuy_app.OpeningActivity$1
-com/example/nearbuy_app/WebActivity.java
- com.example.nearbuy_app.WebActivity
-com/example/nearbuy_app/StoriesModel.java
- com.example.nearbuy_app.StoriesModel
-com/example/nearbuy_app/StoriesAdapter.java
- com.example.nearbuy_app.StoriesAdapter
-com/example/nearbuy_app/ResturantModel.java
- com.example.nearbuy_app.ResturantModel
-com/example/nearbuy_app/NotificationActivity.java
- com.example.nearbuy_app.NotificationActivity
-com/example/nearbuy_app/ProfileActivity.java
- com.example.nearbuy_app.ProfileActivity
-com/example/nearbuy_app/MenuActivity.java
- com.example.nearbuy_app.MenuActivity
- com.example.nearbuy_app.MenuActivity$1
- com.example.nearbuy_app.MenuActivity$2
- com.example.nearbuy_app.MenuActivity$3
- com.example.nearbuy_app.MenuActivity$4
- com.example.nearbuy_app.MenuActivity$5
- com.example.nearbuy_app.MenuActivity$6
- com.example.nearbuy_app.MenuActivity$7
- com.example.nearbuy_app.MenuActivity$8
-com/example/nearbuy_app/ScanActivity.java
- com.example.nearbuy_app.ScanActivity
- com.example.nearbuy_app.ScanActivity$1
-com/example/nearbuy_app/MainActivity.java
- com.example.nearbuy_app.MainActivity
- com.example.nearbuy_app.MainActivity$1
-com/example/nearbuy_app/PurchaseActivity.java
- com.example.nearbuy_app.PurchaseActivity
-com/example/nearbuy_app/ReservationActivity.java
- com.example.nearbuy_app.ReservationActivity
-com/example/nearbuy_app/SalonAdapter.java
- com.example.nearbuy_app.SalonAdapter
+Model/SalonModel.java
+ Model.SalonModel
+Model/ResturantModel.java
+ Model.ResturantModel
+Activity/NotificationActivity.java
+ Activity.NotificationActivity
+Activity/OpeningActivity.java
+ Activity.OpeningActivity
+ Activity.OpeningActivity$1
+ViewHolder/StoriesViewHolder.java
+ ViewHolder.StoriesViewHolder
+ViewHolder/ResturantViewHolder.java
+ ViewHolder.ResturantViewHolder
+ ViewHolder.ResturantViewHolder$1
+Adapter/StoriesAdapter.java
+ Adapter.StoriesAdapter
+Model/popularHangoutsModel.java
+ Model.popularHangoutsModel
+Adapter/SalonAdapter.java
+ Adapter.SalonAdapter
+ViewHolder/SalonViewHolder.java
+ ViewHolder.SalonViewHolder
+ ViewHolder.SalonViewHolder$1
+Activity/PurchaseActivity.java
+ Activity.PurchaseActivity
+Activity/MainActivity.java
+ Activity.MainActivity
+ Activity.MainActivity$1
+Interface/OnClickListner.java
+ Interface.OnClickListner
+Activity/CardActivity.java
+ Activity.CardActivity
+ Activity.CardActivity$1
+Adapter/popularHangoutsAdapter.java
+ Adapter.popularHangoutsAdapter
+ViewHolder/popularHangoutsViewHolder.java
+ ViewHolder.popularHangoutsViewHolder
+ ViewHolder.popularHangoutsViewHolder$1
+Activity/MenuActivity.java
+ Activity.MenuActivity
+ Activity.MenuActivity$1
+ Activity.MenuActivity$2
+ Activity.MenuActivity$3
+ Activity.MenuActivity$4
+ Activity.MenuActivity$5
+ Activity.MenuActivity$6
+ Activity.MenuActivity$7
+ Activity.MenuActivity$8
+Activity/CreditActivity.java
+ Activity.CreditActivity
+Activity/HelpActivity.java
+ Activity.HelpActivity
+Activity/LoginStart.java
+ Activity.LoginStart
+ Activity.LoginStart$1
+Activity/SecondActivity.java
+ Activity.SecondActivity
+ Activity.SecondActivity$1
+Activity/ScanActivity.java
+ Activity.ScanActivity
+ Activity.ScanActivity$1
+Activity/EnterMoNoScreen.java
+ Activity.EnterMoNoScreen
+Activity/StoriesActivity.java
+ Activity.StoriesActivity
+Activity/ReservationActivity.java
+ Activity.ReservationActivity
+Activity/MapScreen.java
+ Activity.MapScreen
+ Activity.MapScreen$1
+ Activity.MapScreen$2
+Activity/ProfileActivity.java
+ Activity.ProfileActivity
+Adapter/RestutantAdapter.java
+ Adapter.RestutantAdapter
+Activity/PromocodesActivity.java
+ Activity.PromocodesActivity
+Activity/ShareAndRateActivity.java
+ Activity.ShareAndRateActivity
+ Activity.ShareAndRateActivity$1
+ Activity.ShareAndRateActivity$2
+ Activity.ShareAndRateActivity$3
+ Activity.ShareAndRateActivity$4
+Activity/popularHangoutsActivity.java
+ Activity.popularHangoutsActivity
+Activity/ScannerActivity.java
+ Activity.ScannerActivity
+ Activity.ScannerActivity$1
+ Activity.ScannerActivity$1$1
+Activity/WebActivity.java
+ Activity.WebActivity
+Activity/PaymentActivity.java
+ Activity.PaymentActivity
+ Activity.PaymentActivity$1
+ Activity.PaymentActivity$2
+Activity/MainActivity2.java
+ Activity.MainActivity2
+ Activity.MainActivity2$1
+ Activity.MainActivity2$10
+ Activity.MainActivity2$11
+ Activity.MainActivity2$12
+ Activity.MainActivity2$13
+ Activity.MainActivity2$14
+ Activity.MainActivity2$2
+ Activity.MainActivity2$3
+ Activity.MainActivity2$4
+ Activity.MainActivity2$5
+ Activity.MainActivity2$6
+ Activity.MainActivity2$7
+ Activity.MainActivity2$8
+ Activity.MainActivity2$9
+Activity/ResturantActivity.java
+ Activity.ResturantActivity
+Activity/SalonActivity.java
+ Activity.SalonActivity

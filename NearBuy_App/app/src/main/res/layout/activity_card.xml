@@ -7,7 +7,7 @@
     android:background="#d1d8e0"
     android:orientation="vertical"
     android:weightSum="10"
-    tools:context=".CardActivity">
+    tools:context="Activity.CardActivity">
 
     <ImageView
         android:layout_width="match_parent"

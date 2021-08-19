@@ -23,37 +23,37 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.NearBuy_App" >
-        <activity android:name="com.example.nearbuy_app.ScanActivity" >
+        <activity android:name="Activity.ScanActivity" >
         </activity>
-        <activity android:name="com.example.nearbuy_app.ScannerActivity" />
-        <activity android:name="com.example.nearbuy_app.HelpActivity" />
-        <activity android:name="com.example.nearbuy_app.popularHangoutsActivity" />
-        <activity android:name="com.example.nearbuy_app.PaymentActivity" />
-        <activity android:name="com.example.nearbuy_app.CardActivity" />
-        <activity android:name="com.example.nearbuy_app.LoginStart" />
-        <activity android:name="com.example.nearbuy_app.WebActivity" />
-        <activity android:name="com.example.nearbuy_app.ShareAndRateActivity" />
-        <activity android:name="com.example.nearbuy_app.SalonActivity" />
-        <activity android:name="com.example.nearbuy_app.ReservationActivity" />
-        <activity android:name="com.example.nearbuy_app.PromocodesActivity" />
-        <activity android:name="com.example.nearbuy_app.ProfileActivity" />
-        <activity android:name="com.example.nearbuy_app.NotificationActivity" />
-        <activity android:name="com.example.nearbuy_app.MenuActivity" />
-        <activity android:name="com.example.nearbuy_app.CreditActivity" />
-        <activity android:name="com.example.nearbuy_app.PurchaseActivity" />
-        <activity android:name="com.example.nearbuy_app.ResturantActivity" />
-        <activity android:name="com.example.nearbuy_app.StoriesActivity" />
-        <activity android:name="com.example.nearbuy_app.MapScreen" />
-        <activity android:name="com.example.nearbuy_app.EnterMoNoScreen" />
-        <activity android:name="com.example.nearbuy_app.OpeningActivity" >
+        <activity android:name="Activity.ScannerActivity" />
+        <activity android:name="Activity.HelpActivity" />
+        <activity android:name="Activity.popularHangoutsActivity" />
+        <activity android:name="Activity.PaymentActivity" />
+        <activity android:name="Activity.CardActivity" />
+        <activity android:name="Activity.LoginStart" />
+        <activity android:name="Activity.WebActivity" />
+        <activity android:name="Activity.ShareAndRateActivity" />
+        <activity android:name="Activity.SalonActivity" />
+        <activity android:name="Activity.ReservationActivity" />
+        <activity android:name="Activity.PromocodesActivity" />
+        <activity android:name="Activity.ProfileActivity" />
+        <activity android:name="Activity.NotificationActivity" />
+        <activity android:name="Activity.MenuActivity" />
+        <activity android:name="Activity.CreditActivity" />
+        <activity android:name="Activity.PurchaseActivity" />
+        <activity android:name="Activity.ResturantActivity" />
+        <activity android:name="Activity.StoriesActivity" />
+        <activity android:name="Activity.MapScreen" />
+        <activity android:name="Activity.EnterMoNoScreen" />
+        <activity android:name="Activity.OpeningActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.nearbuy_app.MainActivity2" />
-        <activity android:name="com.example.nearbuy_app.MainActivity" />
+        <activity android:name="Activity.MainActivity2" />
+        <activity android:name="Activity.MainActivity" />
     </application>
 
 </manifest>

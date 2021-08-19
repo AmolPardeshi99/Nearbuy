@@ -6,123 +6,123 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="26"
-8-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml
+8-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml
+9-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-11-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:5:5-79
-11-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:5:22-76
+11-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:5:22-76
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:6:5-67
-12-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:6:22-64
+12-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:6:22-64
 13    <uses-permission android:name="android.permission.CAMERA" />
-13-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:7:5-65
-13-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:7:22-62
+13-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:7:5-65
+13-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:7:22-62
 14
 15    <application
-15-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:9:5-48:19
+15-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:9:5-48:19
 16        android:allowBackup="true"
-16-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:10:9-35
+16-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:10:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.5.0] /Users/shubhamsmac/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/AndroidManifest.xml:24:18-86
+17-->[androidx.core:core:1.5.0] C:\Users\nalin\.gradle\caches\transforms-2\files-2.1\cc5e9dcdc56dc39042f72c501235e83f\core-1.5.0\AndroidManifest.xml:24:18-86
 18        android:debuggable="true"
 19        android:extractNativeLibs="false"
 20        android:icon="@mipmap/ic_launcher"
-20-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:11:9-43
+20-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:11:9-43
 21        android:label="@string/app_name"
-21-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:12:9-41
+21-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:12:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:13:9-54
+22-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:13:9-54
 23        android:supportsRtl="true"
-23-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:14:9-35
+23-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:14:9-35
 24        android:testOnly="true"
 25        android:theme="@style/Theme.NearBuy_App" >
-25-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:15:9-49
-26        <activity android:name="com.example.nearbuy_app.ScanActivity" >
-26-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:16:9-18:20
-26-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:16:19-47
+25-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:15:9-49
+26        <activity android:name="Activity.ScanActivity" >
+26-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:16:9-18:20
+26-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:16:19-55
 27        </activity>
-28        <activity android:name="com.example.nearbuy_app.ScannerActivity" />
-28-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:19:9-53
-28-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:19:19-50
-29        <activity android:name="com.example.nearbuy_app.HelpActivity" />
-29-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:20:9-50
-29-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:20:19-47
-30        <activity android:name="com.example.nearbuy_app.popularHangoutsActivity" />
-30-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:21:9-61
-30-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:21:19-58
-31        <activity android:name="com.example.nearbuy_app.PaymentActivity" />
-31-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:22:9-53
-31-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:22:19-50
-32        <activity android:name="com.example.nearbuy_app.CardActivity" />
-32-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:23:9-50
-32-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:23:19-47
-33        <activity android:name="com.example.nearbuy_app.LoginStart" />
-33-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:24:9-48
-33-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:24:19-45
-34        <activity android:name="com.example.nearbuy_app.WebActivity" />
-34-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:25:9-49
-34-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:25:19-46
-35        <activity android:name="com.example.nearbuy_app.ShareAndRateActivity" />
-35-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:26:9-58
-35-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:26:19-55
-36        <activity android:name="com.example.nearbuy_app.SalonActivity" />
-36-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:27:9-51
-36-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:27:19-48
-37        <activity android:name="com.example.nearbuy_app.ReservationActivity" />
-37-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:28:9-57
-37-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:28:19-54
-38        <activity android:name="com.example.nearbuy_app.PromocodesActivity" />
-38-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:29:9-56
-38-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:29:19-53
-39        <activity android:name="com.example.nearbuy_app.ProfileActivity" />
-39-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:30:9-53
-39-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:30:19-50
-40        <activity android:name="com.example.nearbuy_app.NotificationActivity" />
-40-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:31:9-58
-40-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:31:19-55
-41        <activity android:name="com.example.nearbuy_app.MenuActivity" />
-41-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:32:9-50
-41-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:32:19-47
-42        <activity android:name="com.example.nearbuy_app.CreditActivity" />
-42-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:33:9-52
-42-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:33:19-49
-43        <activity android:name="com.example.nearbuy_app.PurchaseActivity" />
-43-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:34:9-54
-43-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:34:19-51
-44        <activity android:name="com.example.nearbuy_app.ResturantActivity" />
-44-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:35:9-55
-44-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:35:19-52
-45        <activity android:name="com.example.nearbuy_app.StoriesActivity" />
-45-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:36:9-53
-45-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:36:19-50
-46        <activity android:name="com.example.nearbuy_app.MapScreen" />
-46-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:37:9-47
-46-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:37:19-44
-47        <activity android:name="com.example.nearbuy_app.EnterMoNoScreen" />
-47-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:38:9-53
-47-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:38:19-50
-48        <activity android:name="com.example.nearbuy_app.OpeningActivity" >
-48-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:39:9-45:20
-48-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:39:19-50
+28        <activity android:name="Activity.ScannerActivity" />
+28-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:19:9-61
+28-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:19:19-58
+29        <activity android:name="Activity.HelpActivity" />
+29-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:20:9-58
+29-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:20:19-55
+30        <activity android:name="Activity.popularHangoutsActivity" />
+30-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:21:9-69
+30-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:21:19-66
+31        <activity android:name="Activity.PaymentActivity" />
+31-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:22:9-61
+31-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:22:19-58
+32        <activity android:name="Activity.CardActivity" />
+32-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:23:9-58
+32-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:23:19-55
+33        <activity android:name="Activity.LoginStart" />
+33-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:24:9-56
+33-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:24:19-53
+34        <activity android:name="Activity.WebActivity" />
+34-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:25:9-57
+34-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:25:19-54
+35        <activity android:name="Activity.ShareAndRateActivity" />
+35-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:26:9-66
+35-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:26:19-63
+36        <activity android:name="Activity.SalonActivity" />
+36-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:27:9-59
+36-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:27:19-56
+37        <activity android:name="Activity.ReservationActivity" />
+37-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:28:9-65
+37-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:28:19-62
+38        <activity android:name="Activity.PromocodesActivity" />
+38-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:29:9-64
+38-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:29:19-61
+39        <activity android:name="Activity.ProfileActivity" />
+39-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:30:9-61
+39-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:30:19-58
+40        <activity android:name="Activity.NotificationActivity" />
+40-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:31:9-66
+40-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:31:19-63
+41        <activity android:name="Activity.MenuActivity" />
+41-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:32:9-58
+41-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:32:19-55
+42        <activity android:name="Activity.CreditActivity" />
+42-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:33:9-60
+42-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:33:19-57
+43        <activity android:name="Activity.PurchaseActivity" />
+43-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:34:9-62
+43-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:34:19-59
+44        <activity android:name="Activity.ResturantActivity" />
+44-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:35:9-63
+44-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:35:19-60
+45        <activity android:name="Activity.StoriesActivity" />
+45-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:36:9-61
+45-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:36:19-58
+46        <activity android:name="Activity.MapScreen" />
+46-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:37:9-55
+46-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:37:19-52
+47        <activity android:name="Activity.EnterMoNoScreen" />
+47-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:38:9-61
+47-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:38:19-58
+48        <activity android:name="Activity.OpeningActivity" >
+48-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:39:9-45:20
+48-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:39:19-58
 49            <intent-filter>
-49-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:40:13-44:29
+49-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:40:13-44:29
 50                <action android:name="android.intent.action.MAIN" />
-50-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:41:17-69
-50-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:41:25-66
+50-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:41:17-69
+50-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:41:25-66
 51
 52                <category android:name="android.intent.category.LAUNCHER" />
-52-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:43:17-77
-52-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:43:27-74
+52-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:43:17-77
+52-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:43:27-74
 53            </intent-filter>
 54        </activity>
-55        <activity android:name="com.example.nearbuy_app.MainActivity2" />
-55-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:46:9-51
-55-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:46:19-48
-56        <activity android:name="com.example.nearbuy_app.MainActivity" />
-56-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:47:9-50
-56-->/Users/shubhamsmac/Desktop/123/Nearbuy.com/NearBuy_App/app/src/main/AndroidManifest.xml:47:19-47
+55        <activity android:name="Activity.MainActivity2" />
+55-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:46:9-59
+55-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:46:19-56
+56        <activity android:name="Activity.MainActivity" />
+56-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:47:9-58
+56-->C:\Users\nalin\AndroidStudioProjects\Nearbuy\NearBuy_App\app\src\main\AndroidManifest.xml:47:19-55
 57    </application>
 58
 59</manifest>

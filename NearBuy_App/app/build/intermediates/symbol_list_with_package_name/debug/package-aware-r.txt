@@ -1755,6 +1755,7 @@ drawable home_btn
 drawable home_service
 drawable ic_arrow
 drawable ic_arrow_forward
+drawable ic_baseline_arrow_forward_ios_24
 drawable ic_clock_black_24dp
 drawable ic_code_scanner_auto_focus_off
 drawable ic_code_scanner_auto_focus_on
