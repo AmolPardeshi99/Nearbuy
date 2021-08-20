@@ -1806,6 +1806,7 @@ int drawable mtrl_tabs_default_indicator 0x7f0700ba
 int drawable navigation_empty_icon 0x7f0700bb
 int drawable nearbuyandsearch 0x7f0700bc
 int drawable nearbuybar 0x7f0700bd
+int drawable nearbuylogo 0x7f07011c
 int drawable nearbuyqr 0x7f0700be
 int drawable netbanking 0x7f0700bf
 int drawable notification 0x7f0700c0

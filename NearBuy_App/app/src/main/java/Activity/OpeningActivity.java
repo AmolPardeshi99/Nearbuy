@@ -9,9 +9,6 @@ import com.example.nearbuy_app.R;
 
 public class OpeningActivity extends Activity {
 
-    /** Duration of wait **/
-    private final int SPLASH_DISPLAY_LENGTH = 2150;
-
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle icicle) {
@@ -20,6 +17,7 @@ public class OpeningActivity extends Activity {
 
         /* New Handler to start the Menu-Activity
          * and close this Splash-Screen after some seconds.*/
+        int SPLASH_DISPLAY_LENGTH = 2150;
         new Handler().postDelayed(() -> {
             /* Create an Intent that will start the Menu-Activity.*/
             Intent mainIntent = new Intent(OpeningActivity.this, LoginStart.class);

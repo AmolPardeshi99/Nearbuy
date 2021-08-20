@@ -17,22 +17,20 @@ import com.example.nearbuy_app.R;
 
 public class LoginStart extends AppCompatActivity {
 
-    private ViewFlipper flipper;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_start);
         Toast.makeText(this,"We will implement login via otp soon",Toast.LENGTH_LONG).show();
 
-        int n[] = {R.drawable.img1, R.drawable.img2, R.drawable.img3};
-        flipper = (ViewFlipper) findViewById(R.id.flipper);
+        int[] n = {R.drawable.img1, R.drawable.img2, R.drawable.img3};
+        ViewFlipper flipper = findViewById(R.id.flipper);
 
-        for (int i = 0; i < n.length; i++) {
-            showImage(n[i], flipper);
+        for (int j : n) {
+            showImage(j, flipper);
         }
 
-        EditText mEtMobileNum = (EditText) findViewById(R.id.Etv1);
+        EditText mEtMobileNum = findViewById(R.id.Etv1);
         mEtMobileNum.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {

@@ -1,54 +1,74 @@
-Activity/NotificationActivity.java
- Activity.NotificationActivity
-Activity/PromocodesActivity.java
- Activity.PromocodesActivity
+com/example/nearbuy_app/BuildConfig.java
+ com.example.nearbuy_app.BuildConfig
+Model/StoriesModel.java
+ Model.StoriesModel
 Model/ResturantModel.java
  Model.ResturantModel
+Model/SalonModel.java
+ Model.SalonModel
+Interface/OnClickListner.java
+ Interface.OnClickListner
+Model/popularHangoutsModel.java
+ Model.popularHangoutsModel
+Activity/NotificationActivity.java
+ Activity.NotificationActivity
+Activity/popularHangoutsActivity.java
+ Activity.popularHangoutsActivity
 ViewHolder/StoriesViewHolder.java
  ViewHolder.StoriesViewHolder
 ViewHolder/ResturantViewHolder.java
  ViewHolder.ResturantViewHolder
-Activity/CreditActivity.java
- Activity.CreditActivity
-Model/popularHangoutsModel.java
- Model.popularHangoutsModel
+Adapter/StoriesAdapter.java
+ Adapter.StoriesAdapter
 Adapter/SalonAdapter.java
  Adapter.SalonAdapter
-Model/SalonModel.java
- Model.SalonModel
+Activity/ResturantActivity.java
+ Activity.ResturantActivity
 Activity/PurchaseActivity.java
  Activity.PurchaseActivity
-Activity/MainActivity.java
- Activity.MainActivity
- Activity.MainActivity$1
-Interface/OnClickListner.java
- Interface.OnClickListner
+ViewHolder/SalonViewHolder.java
+ ViewHolder.SalonViewHolder
 Activity/CardActivity.java
  Activity.CardActivity
 Adapter/popularHangoutsAdapter.java
  Adapter.popularHangoutsAdapter
 ViewHolder/popularHangoutsViewHolder.java
  ViewHolder.popularHangoutsViewHolder
-Adapter/RestutantAdapter.java
- Adapter.RestutantAdapter
-Activity/ProfileActivity.java
- Activity.ProfileActivity
+Activity/MenuActivity.java
+ Activity.MenuActivity
+Activity/SalonActivity.java
+ Activity.SalonActivity
 Activity/HelpActivity.java
  Activity.HelpActivity
-com/example/nearbuy_app/BuildConfig.java
- com.example.nearbuy_app.BuildConfig
-Adapter/StoriesAdapter.java
- Adapter.StoriesAdapter
-Activity/WebActivity.java
- Activity.WebActivity
+Activity/LoginStart.java
+ Activity.LoginStart
+ Activity.LoginStart$1
+Activity/SecondActivity.java
+ Activity.SecondActivity
+Activity/ScanActivity.java
+ Activity.ScanActivity
 Activity/EnterMoNoScreen.java
  Activity.EnterMoNoScreen
-Model/StoriesModel.java
- Model.StoriesModel
+Activity/StoriesActivity.java
+ Activity.StoriesActivity
 Activity/ReservationActivity.java
  Activity.ReservationActivity
-ViewHolder/SalonViewHolder.java
- ViewHolder.SalonViewHolder
+Activity/CreditActivity.java
+ Activity.CreditActivity
+Activity/ProfileActivity.java
+ Activity.ProfileActivity
+Adapter/RestutantAdapter.java
+ Adapter.RestutantAdapter
+Activity/PromocodesActivity.java
+ Activity.PromocodesActivity
+Activity/ShareAndRateActivity.java
+ Activity.ShareAndRateActivity
+Activity/PaymentActivity.java
+ Activity.PaymentActivity
+Activity/ScannerActivity.java
+ Activity.ScannerActivity
+Activity/WebActivity.java
+ Activity.WebActivity
 Activity/MainActivity2.java
  Activity.MainActivity2
  Activity.MainActivity2$1
@@ -65,30 +85,9 @@ Activity/MainActivity2.java
  Activity.MainActivity2$7
  Activity.MainActivity2$8
  Activity.MainActivity2$9
-Activity/popularHangoutsActivity.java
- Activity.popularHangoutsActivity
-Activity/SecondActivity.java
- Activity.SecondActivity
+Activity/MainActivity.java
+ Activity.MainActivity
 Activity/OpeningActivity.java
  Activity.OpeningActivity
-Activity/ScanActivity.java
- Activity.ScanActivity
-Activity/StoriesActivity.java
- Activity.StoriesActivity
 Activity/MapScreen.java
  Activity.MapScreen
-Activity/ResturantActivity.java
- Activity.ResturantActivity
-Activity/ShareAndRateActivity.java
- Activity.ShareAndRateActivity
-Activity/PaymentActivity.java
- Activity.PaymentActivity
-Activity/ScannerActivity.java
- Activity.ScannerActivity
-Activity/LoginStart.java
- Activity.LoginStart
- Activity.LoginStart$1
-Activity/MenuActivity.java
- Activity.MenuActivity
-Activity/SalonActivity.java
- Activity.SalonActivity

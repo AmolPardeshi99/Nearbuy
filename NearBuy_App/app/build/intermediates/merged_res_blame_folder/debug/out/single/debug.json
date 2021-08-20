@@ -516,6 +516,10 @@
         "source": "C:\\Users\\nalin\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\massage_offer3.jpg"
     },
     {
+        "merged": "C:\\Users\\nalin\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nearbuylogo.jpeg.flat",
+        "source": "C:\\Users\\nalin\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\drawable\\nearbuylogo.jpeg"
+    },
+    {
         "merged": "C:\\Users\\nalin\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_credit.xml.flat",
         "source": "C:\\Users\\nalin\\AndroidStudioProjects\\Nearbuy\\NearBuy_App\\app\\src\\main\\res\\layout\\activity_credit.xml"
     },

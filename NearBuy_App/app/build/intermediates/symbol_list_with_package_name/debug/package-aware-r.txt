@@ -1807,6 +1807,7 @@ drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
 drawable nearbuyandsearch
 drawable nearbuybar
+drawable nearbuylogo
 drawable nearbuyqr
 drawable netbanking
 drawable notification
