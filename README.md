@@ -66,6 +66,8 @@ Though this project was not a piece of cake. I loved to work with these amazing 
 ##
 ## 4. Menu Screen 
 ![GitHub Cards Preview](https://miro.medium.com/max/875/1*WcXVUG4OHI7F7ymX_Exxvw.jpeg)
+##
+##
 ![GitHub Cards Preview](https://miro.medium.com/max/875/1*eANdla9_Uuok2hHeAX15yQ.jpeg)
 ##
 ## 5. Stories Page
