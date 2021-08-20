@@ -2028,11 +2028,9 @@ id cache_measures
 id cancel_button
 id cardLikeUsOnFacebook
 id cardNearbuyBlog
-id cardNumber
 id cardRateTheApp
 id cardShareTheApp
 id cardview
-id ccv
 id center
 id center_horizontal
 id center_vertical
@@ -2103,7 +2101,11 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etCardNumber
+id etCcv
 id etCityName
+id etMonth
+id etYear
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2166,6 +2168,7 @@ id linear
 id linearResto
 id listMode
 id list_item
+id mBtnPayNow
 id masked
 id material_clock_display
 id material_clock_face
@@ -2189,7 +2192,6 @@ id material_value_index
 id message
 id middle
 id mini
-id month
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -2247,7 +2249,6 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
-id paynow
 id paytm
 id peekHeight
 id percent
@@ -2412,7 +2413,6 @@ id withText
 id withinBounds
 id wrap
 id wrap_content
-id year
 id zero_corner_chip
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur

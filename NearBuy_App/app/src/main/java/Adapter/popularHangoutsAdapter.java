@@ -16,8 +16,8 @@ import Interface.OnClickListner;
 import Model.popularHangoutsModel;
 
 public class popularHangoutsAdapter extends RecyclerView.Adapter<popularHangoutsViewHolder> {
-    private ArrayList<popularHangoutsModel> arrayList;
-    private OnClickListner onClickListner;
+    private final ArrayList<popularHangoutsModel> arrayList;
+    private final OnClickListner onClickListner;
     public popularHangoutsAdapter(ArrayList<popularHangoutsModel>arrayList, OnClickListner onClickListner){
         this.arrayList=arrayList;
         this.onClickListner=onClickListner;

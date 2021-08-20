@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.LinearLayout;
 
 import com.example.nearbuy_app.R;
@@ -25,64 +24,40 @@ public class MenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         initView();
-        Reservation.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MenuActivity.this, ReservationActivity.class);
-                startActivity(intent);
-            }
+        Reservation.setOnClickListener(v -> {
+            Intent intent=new Intent(MenuActivity.this, ReservationActivity.class);
+            startActivity(intent);
         });
-        Promocodes.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MenuActivity.this, PromocodesActivity.class);
-                startActivity(intent);
-            }
+        Promocodes.setOnClickListener(v -> {
+            Intent intent=new Intent(MenuActivity.this, PromocodesActivity.class);
+            startActivity(intent);
         });
-        ShareAndRate.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MenuActivity.this, ShareAndRateActivity.class);
-                startActivity(intent);
-            }
+        ShareAndRate.setOnClickListener(v -> {
+            Intent intent=new Intent(MenuActivity.this, ShareAndRateActivity.class);
+            startActivity(intent);
         });
-        Notification.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MenuActivity.this, NotificationActivity.class);
-                startActivity(intent);
-            }
+        Notification.setOnClickListener(v -> {
+            Intent intent=new Intent(MenuActivity.this, NotificationActivity.class);
+            startActivity(intent);
         });
-        Credit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MenuActivity.this, CreditActivity.class);
-                startActivity(intent);
-            }
+        Credit.setOnClickListener(v -> {
+            Intent intent=new Intent(MenuActivity.this, CreditActivity.class);
+            startActivity(intent);
         });
-        Profile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MenuActivity.this, ProfileActivity.class);
-                startActivity(intent);
-            }
+        Profile.setOnClickListener(v -> {
+            Intent intent=new Intent(MenuActivity.this, ProfileActivity.class);
+            startActivity(intent);
         });
 
-        Update.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("https://play.google.com/store/apps/details?id=com.nearbuy.nearbuymobile"));
-                startActivity(intent);
-            }
+        Update.setOnClickListener(v -> {
+            Intent intent=new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("https://play.google.com/store/apps/details?id=com.nearbuy.nearbuymobile"));
+            startActivity(intent);
         });
 
-        Help.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MenuActivity.this, HelpActivity.class);
-                startActivity(intent);
-            }
+        Help.setOnClickListener(v -> {
+            Intent intent=new Intent(MenuActivity.this, HelpActivity.class);
+            startActivity(intent);
         });
 
     }

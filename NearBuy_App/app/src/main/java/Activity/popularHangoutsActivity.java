@@ -21,7 +21,7 @@ import Model.SalonModel;
 public class popularHangoutsActivity extends AppCompatActivity implements OnClickListner {
 
     private RecyclerView recyclerView;
-    private ArrayList<popularHangoutsModel> arrayList=new ArrayList<>();
+    private final ArrayList<popularHangoutsModel> arrayList=new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

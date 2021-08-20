@@ -2,7 +2,7 @@ package Model;
 
 public class StoriesModel {
 
-    private int image;
+    private final int image;
 
     public StoriesModel(int image) {
         this.image = image;

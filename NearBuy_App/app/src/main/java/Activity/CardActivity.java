@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -12,72 +11,69 @@ import android.widget.Toast;
 import com.example.nearbuy_app.R;
 
 public class CardActivity extends AppCompatActivity {
-    private EditText cardnumber;
-    private EditText month;
-    private EditText year;
-    private EditText ccv;
-    private Button payNow;
+    private EditText CardNumber;
+    private EditText Month;
+    private EditText Ccv;
+    private Button PayNow;
+    private EditText Year;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card);
         initView();
-        payNow.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                boolean cardNumber = cardNumber();
-                boolean month = year();
-                boolean year = month();
-                boolean ccv=ccv();
-                if(cardNumber&&month&&year&&ccv){
-                    Toast.makeText(CardActivity.this,"Payment Success",Toast.LENGTH_LONG).show();
-                    Intent intent = new Intent(CardActivity.this, MainActivity2.class);
-                    startActivity(intent);
-                }
+        PayNow.setOnClickListener(v -> {
+            boolean cardNumber = cardNumber();
+            boolean month = year();
+            boolean year = month();
+            boolean ccv=ccv();
+            if(cardNumber&&month&&year&&ccv){
+                Toast.makeText(CardActivity.this,"Payment Success",Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(CardActivity.this, MainActivity2.class);
+                startActivity(intent);
             }
         });
     }
 
     private void initView() {
-        cardnumber = findViewById(R.id.cardNumber);
-        month = findViewById(R.id.month);
-        year = findViewById(R.id.year);
-        ccv = findViewById(R.id.ccv);
-        payNow = findViewById(R.id.paynow);
+        CardNumber = findViewById(R.id.etCardNumber);
+        Month = findViewById(R.id.etMonth);
+        Year = findViewById(R.id.etYear);
+        Ccv = findViewById(R.id.etCcv);
+        PayNow = findViewById(R.id.mBtnPayNow);
     }
 
     private boolean cardNumber() {
-        if (cardnumber.getText().toString().length() == 16) {
+        if (CardNumber.getText().toString().length() == 16) {
             return true;
         } else {
-            cardnumber.setError("Invalid card number");
+            CardNumber.setError("Invalid card number");
             return false;
         }
     }
 
     private boolean ccv() {
-        if (ccv.getText().toString().length() >= 3) {
+        if (Ccv.getText().toString().length() >= 3) {
             return true;
         } else {
-            ccv.setError("Invalid ccv");
+            Ccv.setError("Invalid ccv");
             return false;
         }
     }
 
     private boolean month() {
-        if (month.getText().toString().trim().length() >= 2) {
+        if (Month.getText().toString().trim().length() >= 2) {
             return true;
         } else {
-            month.setError("Invalid month");
+            Month.setError("Invalid month");
             return false;
         }
     }
     private boolean year() {
-        if (month.getText().toString().trim().length() >= 2) {
+        if (Year.getText().toString().trim().length() >= 2) {
             return true;
         } else {
-            month.setError("Invalid year");
+            Year.setError("Invalid year");
             return false;
         }
     }

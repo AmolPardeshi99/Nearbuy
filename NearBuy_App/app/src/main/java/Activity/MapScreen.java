@@ -8,7 +8,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.view.View;
+
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -26,21 +26,15 @@ public class MapScreen extends AppCompatActivity {
         setContentView(R.layout.activity_map_screen);
         mBtnPermission = findViewById(R.id.BtnLocation);
         mTvSelectManually = findViewById(R.id.tvManually);
-        mBtnPermission.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String[] permission = {Manifest.permission.ACCESS_FINE_LOCATION};
-                ActivityCompat.requestPermissions(MapScreen.this, permission, REQUEST_CODE);
+        mBtnPermission.setOnClickListener(v -> {
+            String[] permission = {Manifest.permission.ACCESS_FINE_LOCATION};
+            ActivityCompat.requestPermissions(MapScreen.this, permission, REQUEST_CODE);
 
-            }
         });
 
-        mTvSelectManually.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent mainIntent = new Intent(MapScreen.this, MainActivity.class);
-                MapScreen.this.startActivity(mainIntent);
-            }
+        mTvSelectManually.setOnClickListener(v -> {
+            Intent mainIntent = new Intent(MapScreen.this, MainActivity.class);
+            MapScreen.this.startActivity(mainIntent);
         });
     }
 
@@ -51,9 +45,6 @@ public class MapScreen extends AppCompatActivity {
 
             Intent mainIntent = new Intent(MapScreen.this, MainActivity2.class);
             MapScreen.this.startActivity(mainIntent);
-
-        } else{
-
 
         }
     }

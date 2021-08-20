@@ -15,7 +15,7 @@ import Model.SalonModel;
 public class SalonViewHolder extends RecyclerView.ViewHolder {
     private ImageView IvStories;
     private CardView cardView;
-    private OnClickListner onClickListner;
+    private final OnClickListner onClickListner;
 
 
     public SalonViewHolder(@NonNull View itemView,OnClickListner onClickListner) {
@@ -32,12 +32,7 @@ public class SalonViewHolder extends RecyclerView.ViewHolder {
     }
     public void setData(SalonModel model){
         IvStories.setImageResource(model.getImage());
-        cardView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onClickListner.onItemClicked(model,getAdapterPosition());
-            }
-        });
+        cardView.setOnClickListener(v -> onClickListner.onItemClicked(model,getAdapterPosition()));
     }
 }
 

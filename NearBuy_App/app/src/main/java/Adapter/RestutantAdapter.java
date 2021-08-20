@@ -16,8 +16,8 @@ import Interface.OnClickListner;
 import Model.ResturantModel;
 
 public class RestutantAdapter extends RecyclerView.Adapter<ResturantViewHolder> {
-    private ArrayList<ResturantModel> arrayList;
-    private OnClickListner onClickListner2;
+    private final ArrayList<ResturantModel> arrayList;
+    private final OnClickListner onClickListner2;
     public RestutantAdapter(ArrayList<ResturantModel>arrayList,OnClickListner onClickListner2){
         this.arrayList=arrayList;
         this.onClickListner2 = onClickListner2;

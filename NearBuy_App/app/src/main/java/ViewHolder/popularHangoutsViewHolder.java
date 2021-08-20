@@ -15,7 +15,7 @@ import Model.popularHangoutsModel;
 public class popularHangoutsViewHolder extends RecyclerView.ViewHolder {
     private ImageView IvStories;
     private CardView cardView;
-    private OnClickListner onClickListner;
+    private final OnClickListner onClickListner;
 
 
     public popularHangoutsViewHolder(@NonNull View itemView, OnClickListner onClickListner) {
@@ -32,12 +32,7 @@ public class popularHangoutsViewHolder extends RecyclerView.ViewHolder {
     }
     public void setData(popularHangoutsModel model){
         IvStories.setImageResource(model.getImage());
-        cardView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onClickListner.onItemClicked3(model,getAdapterPosition());
-            }
-        });
+        cardView.setOnClickListener(v -> onClickListner.onItemClicked3(model,getAdapterPosition()));
     }
 }
 

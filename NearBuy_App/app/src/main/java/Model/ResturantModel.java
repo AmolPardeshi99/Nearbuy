@@ -2,7 +2,7 @@ package Model;
 
 public class ResturantModel {
 
-    private int image;
+    private final int image;
 
     public ResturantModel(int image) {
         this.image = image;

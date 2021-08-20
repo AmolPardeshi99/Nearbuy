@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import Model.StoriesModel;
 
 public class StoriesAdapter extends RecyclerView.Adapter<StoriesViewHolder> {
-    private ArrayList<StoriesModel> arrayList;
+    private final ArrayList<StoriesModel> arrayList;
     public StoriesAdapter(ArrayList<StoriesModel>arrayList){
         this.arrayList=arrayList;
     }

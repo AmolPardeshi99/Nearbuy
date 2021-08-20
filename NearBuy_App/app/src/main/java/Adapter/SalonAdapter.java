@@ -16,8 +16,8 @@ import Interface.OnClickListner;
 import Model.SalonModel;
 
 public class SalonAdapter extends RecyclerView.Adapter<SalonViewHolder> {
-    private ArrayList<SalonModel> arrayList;
-    private OnClickListner onClickListner;
+    private final ArrayList<SalonModel> arrayList;
+    private final OnClickListner onClickListner;
     public SalonAdapter(ArrayList<SalonModel>arrayList,OnClickListner onClickListner){
         this.arrayList=arrayList;
         this.onClickListner=onClickListner;

@@ -17,7 +17,7 @@ import Model.StoriesModel;
 public class StoriesActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
-    private ArrayList<StoriesModel> arrayList=new ArrayList<>();
+    private final ArrayList<StoriesModel> arrayList=new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -2,7 +2,7 @@ package Model;
 
 public class SalonModel {
 
-    private int image;
+    private final int image;
 
     public SalonModel(int image) {
         this.image = image;

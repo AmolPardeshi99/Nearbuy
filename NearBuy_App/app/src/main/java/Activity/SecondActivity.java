@@ -8,7 +8,7 @@ import android.Manifest;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
+
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -25,13 +25,10 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.location_main);
         mBtnPermission = findViewById(R.id.BtnLocation);
-        mBtnPermission.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.d("Lloyd","onButtonClickSecondaryActivity");
-                String[] permission = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.ACCESS_FINE_LOCATION};
-                ActivityCompat.requestPermissions(SecondActivity.this, permission, REQUEST_CODE);
-            }
+        mBtnPermission.setOnClickListener(v -> {
+            Log.d("Lloyd","onButtonClickSecondaryActivity");
+            String[] permission = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.ACCESS_FINE_LOCATION};
+            ActivityCompat.requestPermissions(SecondActivity.this, permission, REQUEST_CODE);
         });
     }
 
@@ -57,9 +54,5 @@ public class SecondActivity extends AppCompatActivity {
         }
     }
 
-    private void showToast(String message) {
-        //Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
 
-
-    }
 }

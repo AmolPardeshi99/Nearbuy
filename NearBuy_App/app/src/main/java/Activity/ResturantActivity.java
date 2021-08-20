@@ -21,7 +21,7 @@ import Model.popularHangoutsModel;
 public class ResturantActivity extends AppCompatActivity implements OnClickListner {
 
     private RecyclerView recyclerView;
-    private ArrayList<ResturantModel> arrayList = new ArrayList<>();
+    private final ArrayList<ResturantModel> arrayList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

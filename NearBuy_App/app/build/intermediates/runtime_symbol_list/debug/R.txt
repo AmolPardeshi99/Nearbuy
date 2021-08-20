@@ -2027,11 +2027,9 @@ int id cache_measures 0x7f08007b
 int id cancel_button 0x7f08007c
 int id cardLikeUsOnFacebook 0x7f08007d
 int id cardNearbuyBlog 0x7f08007e
-int id cardNumber 0x7f08007f
 int id cardRateTheApp 0x7f080080
 int id cardShareTheApp 0x7f080081
 int id cardview 0x7f080082
-int id ccv 0x7f080083
 int id center 0x7f080084
 int id center_horizontal 0x7f080085
 int id center_vertical 0x7f080086
@@ -2102,7 +2100,11 @@ int id end 0x7f0800c6
 int id endToStart 0x7f0800c7
 int id enterAlways 0x7f0800c8
 int id enterAlwaysCollapsed 0x7f0800c9
+int id etCardNumber 0x7f080201
+int id etCcv 0x7f080202
 int id etCityName 0x7f0800ca
+int id etMonth 0x7f080203
+int id etYear 0x7f080204
 int id exitUntilCollapsed 0x7f0800cb
 int id expand_activities_button 0x7f0800cc
 int id expanded_menu 0x7f0800cd
@@ -2165,6 +2167,7 @@ int id linear 0x7f080105
 int id linearResto 0x7f080106
 int id listMode 0x7f080107
 int id list_item 0x7f080108
+int id mBtnPayNow 0x7f080205
 int id masked 0x7f080109
 int id material_clock_display 0x7f08010a
 int id material_clock_face 0x7f08010b
@@ -2188,7 +2191,6 @@ int id material_value_index 0x7f08011c
 int id message 0x7f08011d
 int id middle 0x7f08011e
 int id mini 0x7f08011f
-int id month 0x7f080120
 int id month_grid 0x7f080121
 int id month_navigation_bar 0x7f080122
 int id month_navigation_fragment_toggle 0x7f080123
@@ -2246,7 +2248,6 @@ int id parent_matrix 0x7f080156
 int id password_toggle 0x7f080157
 int id path 0x7f080158
 int id pathRelative 0x7f080159
-int id paynow 0x7f08015a
 int id paytm 0x7f08015b
 int id peekHeight 0x7f08015c
 int id percent 0x7f08015d
@@ -2411,7 +2412,6 @@ int id withText 0x7f0801fb
 int id withinBounds 0x7f0801fc
 int id wrap 0x7f0801fd
 int id wrap_content 0x7f0801fe
-int id year 0x7f0801ff
 int id zero_corner_chip 0x7f080200
 int integer abc_config_activityDefaultDur 0x7f090000
 int integer abc_config_activityShortDur 0x7f090001

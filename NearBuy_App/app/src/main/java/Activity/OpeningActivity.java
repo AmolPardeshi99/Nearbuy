@@ -20,14 +20,11 @@ public class OpeningActivity extends Activity {
 
         /* New Handler to start the Menu-Activity
          * and close this Splash-Screen after some seconds.*/
-        new Handler().postDelayed(new Runnable(){
-            @Override
-            public void run() {
-                /* Create an Intent that will start the Menu-Activity.*/
-                Intent mainIntent = new Intent(OpeningActivity.this, LoginStart.class);
-                OpeningActivity.this.startActivity(mainIntent);
-                finish();
-            }
+        new Handler().postDelayed(() -> {
+            /* Create an Intent that will start the Menu-Activity.*/
+            Intent mainIntent = new Intent(OpeningActivity.this, LoginStart.class);
+            OpeningActivity.this.startActivity(mainIntent);
+            finish();
         }, SPLASH_DISPLAY_LENGTH);
     }
 }

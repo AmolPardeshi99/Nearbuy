@@ -15,7 +15,7 @@ import Model.ResturantModel;
 public class ResturantViewHolder extends RecyclerView.ViewHolder {
     private ImageView IvStories;
     private CardView cardView;
-    private OnClickListner onClickListner;
+    private final OnClickListner onClickListner;
 
 
     public ResturantViewHolder(@NonNull View itemView, OnClickListner onClickListner) {
@@ -33,12 +33,7 @@ public class ResturantViewHolder extends RecyclerView.ViewHolder {
     }
     public void setData(ResturantModel model){
         IvStories.setImageResource(model.getImage());
-        cardView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-           onClickListner.onItemClicked2(model,getAdapterPosition());
-            }
-        });
+        cardView.setOnClickListener(v -> onClickListner.onItemClicked2(model,getAdapterPosition()));
 
     }
 }

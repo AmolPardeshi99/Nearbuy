@@ -1,7 +1,7 @@
 package Activity;
 
 
-import androidx.annotation.NonNull;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -9,11 +9,11 @@ import android.widget.TextView;
 
 import com.budiyev.android.codescanner.CodeScanner;
 import com.budiyev.android.codescanner.CodeScannerView;
-import com.budiyev.android.codescanner.DecodeCallback;
-import com.example.nearbuy_app.R;
-import com.google.zxing.Result;
 
-import org.w3c.dom.Text;
+import com.example.nearbuy_app.R;
+
+
+
 
 public class ScannerActivity extends AppCompatActivity {
 
@@ -26,21 +26,11 @@ public class ScannerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scanner);
 
-        txt = (TextView) findViewById(R.id.textView);
-        codeScannerView = (CodeScannerView) findViewById(R.id.scannerView);
+        txt = findViewById(R.id.textView);
+        codeScannerView = findViewById(R.id.scannerView);
         codeScanner = new CodeScanner(this, codeScannerView);
 
-        codeScanner.setDecodeCallback(new DecodeCallback() {
-            @Override
-            public void onDecoded(@NonNull Result result) {
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        txt.setText(result.getText());
-                    }
-                });
-            }
-        });
+        codeScanner.setDecodeCallback(result -> runOnUiThread(() -> txt.setText(result.getText())));
 
     }
 

@@ -36,7 +36,7 @@
             </TextView>
 
             <EditText
-                android:id="@+id/cardNumber"
+                android:id="@+id/etCardNumber"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:layout_width="match_parent"
@@ -86,7 +86,7 @@
                 android:layout_margin="@dimen/dp_10">
 
                 <EditText
-                    android:id="@+id/month"
+                    android:id="@+id/etMonth"
                     android:layout_width="@dimen/dp_70"
                     android:layout_height="@dimen/dp_40"
                     android:background="@drawable/et_background"
@@ -99,7 +99,7 @@
                 </EditText>
 
                 <EditText
-                    android:id="@+id/year"
+                    android:id="@+id/etYear"
                     android:layout_width="@dimen/dp_70"
                     android:layout_height="@dimen/dp_40"
                     android:layout_marginLeft="@dimen/dp_20"
@@ -107,13 +107,13 @@
                     android:hint="  YY"
                     android:textStyle="bold"
                     android:gravity="center"
-                    app:layout_constraintStart_toEndOf="@id/month"
+                    app:layout_constraintStart_toEndOf="@id/etMonth"
                     app:layout_constraintTop_toTopOf="parent">
 
                 </EditText>
 
                 <EditText
-                    android:id="@+id/ccv"
+                    android:id="@+id/etCcv"
                     android:layout_width="wrap_content"
                     android:layout_height="@dimen/dp_40"
                     android:layout_marginRight="10sp"
@@ -130,7 +130,7 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/paynow"
+        android:id="@+id/mBtnPayNow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/dp_20"
