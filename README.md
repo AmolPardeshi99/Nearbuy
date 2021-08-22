@@ -18,7 +18,7 @@ The Team Members are:
 3. Amol Pardeshi
 
 
-A little about the teammates and their contributions.
+**A little about the teammates and their contributions.**
 I can’t thank Avadhut and Nalinikanth enough, who worked hard for this project to become what it is today. I think the best way to thank them would be to mention their contribution and let their work speak for them.
 
 Nalinikanth was responsible for designing the menu bar functions, relative layouts in subactivity, payment process, stories page. He took care of all recyclerview, things such as making the pages that took user experience to the next level.
