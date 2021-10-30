@@ -1,48 +1,42 @@
-com/example/nearbuy_app/BuildConfig.java
- com.example.nearbuy_app.BuildConfig
-Model/StoriesModel.java
- Model.StoriesModel
 Model/ResturantModel.java
  Model.ResturantModel
-Model/SalonModel.java
- Model.SalonModel
-Interface/OnClickListner.java
- Interface.OnClickListner
-Model/popularHangoutsModel.java
- Model.popularHangoutsModel
-Activity/NotificationActivity.java
- Activity.NotificationActivity
 Activity/popularHangoutsActivity.java
  Activity.popularHangoutsActivity
+Activity/NotificationActivity.java
+ Activity.NotificationActivity
 ViewHolder/StoriesViewHolder.java
  ViewHolder.StoriesViewHolder
 ViewHolder/ResturantViewHolder.java
  ViewHolder.ResturantViewHolder
-Adapter/StoriesAdapter.java
- Adapter.StoriesAdapter
+Activity/OpeningActivity.java
+ Activity.OpeningActivity
+Model/popularHangoutsModel.java
+ Model.popularHangoutsModel
 Adapter/SalonAdapter.java
  Adapter.SalonAdapter
 Activity/ResturantActivity.java
  Activity.ResturantActivity
 Activity/PurchaseActivity.java
  Activity.PurchaseActivity
+Interface/OnClickListner.java
+ Interface.OnClickListner
 ViewHolder/SalonViewHolder.java
  ViewHolder.SalonViewHolder
-Activity/CardActivity.java
- Activity.CardActivity
+Activity/LoginStart.java
+ Activity.LoginStart
+ Activity.LoginStart$1
 Adapter/popularHangoutsAdapter.java
  Adapter.popularHangoutsAdapter
 ViewHolder/popularHangoutsViewHolder.java
  ViewHolder.popularHangoutsViewHolder
-Activity/MenuActivity.java
- Activity.MenuActivity
 Activity/SalonActivity.java
  Activity.SalonActivity
+Activity/MenuActivity.java
+ Activity.MenuActivity
 Activity/HelpActivity.java
  Activity.HelpActivity
-Activity/LoginStart.java
- Activity.LoginStart
- Activity.LoginStart$1
+Adapter/StoriesAdapter.java
+ Adapter.StoriesAdapter
 Activity/SecondActivity.java
  Activity.SecondActivity
 Activity/ScanActivity.java
@@ -63,10 +57,16 @@ Activity/PromocodesActivity.java
  Activity.PromocodesActivity
 Activity/ShareAndRateActivity.java
  Activity.ShareAndRateActivity
+com/example/nearbuy_app/BuildConfig.java
+ com.example.nearbuy_app.BuildConfig
+Model/SalonModel.java
+ Model.SalonModel
 Activity/PaymentActivity.java
  Activity.PaymentActivity
 Activity/ScannerActivity.java
  Activity.ScannerActivity
+Model/StoriesModel.java
+ Model.StoriesModel
 Activity/WebActivity.java
  Activity.WebActivity
 Activity/MainActivity2.java
@@ -87,7 +87,7 @@ Activity/MainActivity2.java
  Activity.MainActivity2$9
 Activity/MainActivity.java
  Activity.MainActivity
-Activity/OpeningActivity.java
- Activity.OpeningActivity
+Activity/CardActivity.java
+ Activity.CardActivity
 Activity/MapScreen.java
  Activity.MapScreen

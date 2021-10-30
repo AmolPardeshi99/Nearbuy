@@ -38,7 +38,7 @@ public class MainActivity2 extends AppCompatActivity {
         }
 
         //setting data for third flipper
-        int imagarr3[] = {R.drawable.kabab_2, R.drawable.drink_1, R.drawable.farmer_3, R.drawable.affinity_4, R.drawable.wellness_5};
+        int imagarr3[] = {R.drawable.buffet_1, R.drawable.drink_1, R.drawable.farmer_3, R.drawable.affinity_4, R.drawable.wellness_5};
         flipper3 = (ViewFlipper) findViewById(R.id.flipperBuyNow2);
 
         for (int i = 0; i < imagarr3.length; i++) {
